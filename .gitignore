@@ -5,3 +5,8 @@ game/.godot/
 __pycache__/
 # Gravações brutas (os vídeos finais estão em docs/videos em MP4)
 *.avi
+# Arquivos grandes: vão só no zip de entrega (tools/empacotar_entrega.py)
+builds/
+docs/videos/demo_mocap_sequencia_completa.mp4
+blender/personagem.blend
+dist/
