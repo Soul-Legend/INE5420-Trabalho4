@@ -1,0 +1,183 @@
+[
+  {
+    "input": "conceito_seed5420.png",
+    "model": "tencent/Hunyuan3D-2",
+    "params": {
+      "steps": 30,
+      "guidance_scale": 5.0,
+      "seed": 1234,
+      "octree_resolution": 256,
+      "check_box_rembg": true,
+      "num_chunks": 8000,
+      "randomize_seed": false
+    },
+    "seed": 1234,
+    "files": {
+      "forma": "conceito_seed5420_forma.glb"
+    },
+    "stats": {
+      "model": {
+        "shapegen": "tencent/Hunyuan3D-2/hunyuan3d-dit-v2-0",
+        "texgen": "tencent/Hunyuan3D-2"
+      },
+      "params": {
+        "caption": null,
+        "steps": 30,
+        "guidance_scale": 5.0,
+        "seed": 1234,
+        "octree_resolution": 256,
+        "check_box_rembg": true,
+        "num_chunks": 8000
+      },
+      "number_of_faces": 189108,
+      "number_of_vertices": 74718,
+      "time": {
+        "remove background": 0.9159443378448486,
+        "shape generation": 5.547522306442261,
+        "export to trimesh": 0.03387761116027832,
+        "total": 6.498771667480469
+      }
+    },
+    "seconds": 12.0,
+    "when": "2026-11-21T23:43:44"
+  },
+  {
+    "input": "conceito_seed5420.png",
+    "model": "tencent/Hunyuan3D-2",
+    "params": {
+      "steps": 30,
+      "guidance_scale": 5.0,
+      "seed": 1234,
+      "octree_resolution": 384.0,
+      "check_box_rembg": false,
+      "num_chunks": 8000,
+      "randomize_seed": false
+    },
+    "seed": 1234,
+    "files": {
+      "sem_rembg_384": "conceito_seed5420_sem_rembg_384.glb"
+    },
+    "stats": {
+      "model": {
+        "shapegen": "tencent/Hunyuan3D-2/hunyuan3d-dit-v2-0",
+        "texgen": "tencent/Hunyuan3D-2"
+      },
+      "params": {
+        "caption": null,
+        "steps": 30,
+        "guidance_scale": 5.0,
+        "seed": 1234,
+        "octree_resolution": 384,
+        "check_box_rembg": false,
+        "num_chunks": 8000
+      },
+      "number_of_faces": 597458,
+      "number_of_vertices": 223523,
+      "time": {
+        "shape generation": 6.282464981079102,
+        "export to trimesh": 0.10124492645263672,
+        "total": 6.385037422180176
+      }
+    },
+    "seconds": 12.9,
+    "when": "2026-11-21T23:44:38"
+  },
+  {
+    "input": "conceito_seed5420_sem_fundo.png",
+    "model": "tencent/Hunyuan3D-2",
+    "params": {
+      "steps": 30,
+      "guidance_scale": 5.0,
+      "seed": 1234,
+      "octree_resolution": 384.0,
+      "check_box_rembg": false,
+      "num_chunks": 8000,
+      "randomize_seed": false
+    },
+    "seed": 1234,
+    "files": {
+      "rgba_384": "conceito_seed5420_sem_fundo_rgba_384.glb"
+    },
+    "stats": {
+      "model": {
+        "shapegen": "tencent/Hunyuan3D-2/hunyuan3d-dit-v2-0",
+        "texgen": "tencent/Hunyuan3D-2"
+      },
+      "params": {
+        "caption": null,
+        "steps": 30,
+        "guidance_scale": 5.0,
+        "seed": 1234,
+        "octree_resolution": 384,
+        "check_box_rembg": false,
+        "num_chunks": 8000
+      },
+      "number_of_faces": 553616,
+      "number_of_vertices": 204650,
+      "time": {
+        "shape generation": 7.003597021102905,
+        "export to trimesh": 0.10533308982849121,
+        "total": 7.1107659339904785
+      }
+    },
+    "seconds": 14.5,
+    "when": "2026-11-21T23:56:36"
+  },
+  {
+    "input": "conceito_seed5420_sem_fundo.png",
+    "model": "tencent/Hunyuan3D-2",
+    "params": {
+      "steps": 30,
+      "guidance_scale": 5.0,
+      "seed": 1234,
+      "octree_resolution": 384.0,
+      "check_box_rembg": false,
+      "num_chunks": 8000,
+      "randomize_seed": false
+    },
+    "seed": 1234,
+    "files": {
+      "rgba_384_sem_sombra": "conceito_seed5420_sem_fundo_rgba_384_sem_sombra.glb"
+    },
+    "stats": {
+      "model": {
+        "shapegen": "tencent/Hunyuan3D-2/hunyuan3d-dit-v2-0",
+        "texgen": "tencent/Hunyuan3D-2"
+      },
+      "params": {
+        "caption": null,
+        "steps": 30,
+        "guidance_scale": 5.0,
+        "seed": 1234,
+        "octree_resolution": 384,
+        "check_box_rembg": false,
+        "num_chunks": 8000
+      },
+      "number_of_faces": 498400,
+      "number_of_vertices": 184916,
+      "time": {
+        "shape generation": 6.366363525390625,
+        "export to trimesh": 0.10887360572814941,
+        "total": 6.477417945861816
+      }
+    },
+    "seconds": 13.1,
+    "when": "2026-11-22T00:05:56"
+  },
+  {
+    "input_shape": "conceito_seed5420_sem_fundo_rgba_384_sem_sombra.glb",
+    "input_image": "conceito_seed5420_sem_fundo.png",
+    "model": "tencent/Hunyuan3D-2 (hunyuan3d-delight-v2-0 + hunyuan3d-paint-v2-0-turbo), local",
+    "device": "AMD Radeon RX 9070 XT",
+    "torch": "2.15.0+rocm10.2.0",
+    "faces": [
+      498400,
+      40000
+    ],
+    "output": "conceito_seed5420_texturizada_local.glb",
+    "seconds_load": 20.4,
+    "seconds_paint": 312.6,
+    "peak_gpu_gib": 11.55,
+    "when": "2026-11-22T00:54:43"
+  }
+]

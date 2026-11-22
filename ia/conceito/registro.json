@@ -1,0 +1,48 @@
+[
+  {
+    "file": "conceito_seed11.png",
+    "model": "stabilityai/stable-diffusion-3.5-large-turbo",
+    "prompt": "Full body 3D game character concept art of a friendly robot witch inspired by the folklore drawings of Franklin Cascaes from Santa Catarina Island, Brazil. Azorean fisherwoman shawl and short tunic made of riveted copper and ceramic plates, pointed woven straw hat, carved wooden face mask, mechanical arms and legs, boots. Standing in a symmetrical T-pose, both arms stretched straight out horizontally, legs apart and clearly separated, front view, orthographic, centered, whole body visible from hat to feet, plain white background, soft studio lighting, clean silhouette, stylized PBR",
+    "negative_prompt": "multiple characters, cropped, cut off feet, side view, back view, arms down, A-pose, long skirt covering the legs, cape, scenery, background objects, text, watermark, blurry",
+    "seed": 11,
+    "size": [
+      768,
+      1024
+    ],
+    "steps": 4,
+    "guidance": 0.0,
+    "when": "2026-11-21T23:27:10"
+  },
+  {
+    "file": "conceito_seed2026.png",
+    "model": "stabilityai/stable-diffusion-3.5-large-turbo",
+    "prompt": "Full body 3D game character concept art of a friendly robot witch inspired by the folklore drawings of Franklin Cascaes from Santa Catarina Island, Brazil. Azorean fisherwoman shawl and short tunic made of riveted copper and ceramic plates, pointed woven straw hat, carved wooden face mask, mechanical arms and legs, boots. Standing in a symmetrical T-pose, both arms stretched straight out horizontally, legs apart and clearly separated, front view, orthographic, centered, whole body visible from hat to feet, plain white background, soft studio lighting, clean silhouette, stylized PBR",
+    "negative_prompt": "multiple characters, cropped, cut off feet, side view, back view, arms down, A-pose, long skirt covering the legs, cape, scenery, background objects, text, watermark, blurry",
+    "seed": 2026,
+    "size": [
+      768,
+      1024
+    ],
+    "steps": 4,
+    "guidance": 0.0,
+    "when": "2026-11-21T23:27:13"
+  },
+  {
+    "file": "conceito_seed5420.png",
+    "model": "stabilityai/stable-diffusion-3.5-large-turbo",
+    "prompt": "Full body 3D game character concept art of a friendly robot witch inspired by the folklore drawings of Franklin Cascaes from Santa Catarina Island, Brazil. Azorean fisherwoman shawl and short tunic made of riveted copper and ceramic plates, pointed woven straw hat, carved wooden face mask, mechanical arms and legs, boots. Standing in a symmetrical T-pose, both arms stretched straight out horizontally, legs apart and clearly separated, front view, orthographic, centered, whole body visible from hat to feet, plain white background, soft studio lighting, clean silhouette, stylized PBR",
+    "negative_prompt": "multiple characters, cropped, cut off feet, side view, back view, arms down, A-pose, long skirt covering the legs, cape, scenery, background objects, text, watermark, blurry",
+    "seed": 5420,
+    "size": [
+      768,
+      1024
+    ],
+    "steps": 4,
+    "guidance": 0.0,
+    "when": "2026-11-21T23:27:22"
+  },
+  {
+    "seed": 777,
+    "note": "não gerada: cota anônima de GPU (ZeroGPU) do Hugging Face esgotada"
+  }
+]
