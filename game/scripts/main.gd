@@ -5,6 +5,7 @@ extends Node3D
 ## Command-line options (after "--"):
 ##   --demo                 scripted WASD tour with the procedural animations (video)
 ##   --mocap-show           scripted scene: the complete class capture takes, no input
+##   --raw-compare          side by side: one capture clip used raw vs treated
 ##   --screenshots=DIR      saves PNG frames at key moments
 
 const COIN_COUNT := 8
@@ -27,6 +28,12 @@ func _ready() -> void:
 	_rng.seed = 2026
 	_build_environment()
 	add_child(Fortress.new())
+	if "--raw-compare" in OS.get_cmdline_user_args():
+		var compare := RawCompare.new()
+		add_child(compare)
+		compare.finished.connect(get_tree().quit)
+		_read_options()
+		return
 	if "--mocap-show" in OS.get_cmdline_user_args():
 		var show := MocapShow.new()
 		show.position = Vector3(0, 0, 2)
