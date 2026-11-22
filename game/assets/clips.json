@@ -1,0 +1,105 @@
+{
+  "idle": {
+    "source": "Movimentos02.fbx",
+    "source_seconds": [
+      20.07,
+      22.07
+    ],
+    "length_s": 2.0,
+    "frames": 60,
+    "speed_m_s": 0.0,
+    "loop_cost": 0.882
+  },
+  "walk": {
+    "source": "Movimentos02.fbx",
+    "source_seconds": [
+      61.23,
+      63.83
+    ],
+    "length_s": 2.6,
+    "frames": 78,
+    "speed_m_s": 0.989,
+    "loop_cost": 4.653
+  },
+  "run": {
+    "source": "Movimentos06.fbx",
+    "source_seconds": [
+      19.57,
+      21.07
+    ],
+    "length_s": 1.5,
+    "frames": 45,
+    "speed_m_s": 1.857,
+    "loop_cost": 10.043
+  },
+  "walk_pro": {
+    "speed_m_s": 1.35,
+    "length_s": 1.1,
+    "frames": 33,
+    "procedural": true
+  },
+  "run_pro": {
+    "speed_m_s": 2.8,
+    "length_s": 0.7,
+    "frames": 21,
+    "procedural": true
+  },
+  "idle_pro": {
+    "speed_m_s": 0.0,
+    "length_s": 3.0,
+    "frames": 90,
+    "procedural": true
+  },
+  "mocap_takes": [
+    {
+      "action": "mocap_Movimentos01",
+      "seconds": 45.83,
+      "frames": 1376
+    },
+    {
+      "action": "mocap_Movimentos02",
+      "seconds": 147.3,
+      "frames": 4420
+    },
+    {
+      "action": "mocap_Movimentos03",
+      "seconds": 16.7,
+      "frames": 502
+    },
+    {
+      "action": "mocap_Movimentos04",
+      "seconds": 44.27,
+      "frames": 1329
+    },
+    {
+      "action": "mocap_Movimentos05",
+      "seconds": 67.9,
+      "frames": 2038
+    },
+    {
+      "action": "mocap_Movimentos06",
+      "seconds": 43.2,
+      "frames": 1297
+    },
+    {
+      "action": "mocap_Movimentos07",
+      "seconds": 45.87,
+      "frames": 1377
+    },
+    {
+      "action": "mocap_Movimentos_basquete01",
+      "seconds": 125.73,
+      "frames": 3773
+    }
+  ],
+  "walk_raw": {
+    "source": "Movimentos02.fbx",
+    "source_seconds": [
+      24.0,
+      26.6
+    ],
+    "length_s": 2.6,
+    "frames": 79,
+    "untreated": true
+  }
+}
