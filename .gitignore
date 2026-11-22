@@ -1,0 +1,7 @@
+# Godot
+game/.godot/
+# Blender
+*.blend1
+__pycache__/
+# Gravações brutas (os vídeos finais estão em docs/videos em MP4)
+*.avi
