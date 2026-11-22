@@ -1,0 +1,25 @@
+; Engine configuration file.
+; Input actions are registered in code (scripts/input_setup.gd) so that they
+; stay readable and versioned together with the game logic.
+
+config_version=5
+
+[application]
+
+config/name="Fortaleza em Movimento"
+config/description="INE5420 - Trabalho 4: personagem hierárquico animado com captura de movimentos."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+anti_aliasing/quality/msaa_3d=2
