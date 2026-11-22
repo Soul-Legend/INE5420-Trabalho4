@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Personagem Hierárquico com Captura de Movimentos e Animação Procedural</title>
+<meta name="author" content="Cristian Alexandre Alchini; Lucas Cardoso Soares; Pedro Henrique De Sena Trombini Taglialenha">
+<style>
+  @page { size: A4; margin: 2.5cm 2.2cm 2.4cm 2.2cm;
+    @bottom-center { content: counter(page); font-family: "Times New Roman", Times, serif; font-size: 10pt; } }
+  @page :first { @bottom-center { content: none; } }
+  html { font-family: "Times New Roman", Times, serif; font-size: 11.5pt; color: #000; }
+  body { margin: 0; line-height: 1.38; }
+  .title { text-align: center; font-size: 17pt; font-weight: bold; line-height: 1.2; margin: 0 1cm 0.55cm; }
+  .authors { text-align: center; font-size: 11.5pt; line-height: 1.45; }
+  .affiliation { text-align: center; font-size: 10.5pt; margin-top: 0.3cm; line-height: 1.35; }
+  .abstract { margin: 0.75cm 0.9cm 0; font-size: 10.5pt; text-align: justify; font-style: italic; }
+  .abstract p { text-indent: 0; margin: 0 0 0.25cm; }
+  .abstract b { font-style: normal; }
+  .keywords { margin: 0.05cm 0.9cm 0.4cm; font-size: 10.5pt; text-align: justify; }
+  h1 { font-size: 13pt; margin: 0.55cm 0 0.18cm; break-after: avoid; }
+  h2 { font-size: 11.5pt; margin: 0.4cm 0 0.12cm; break-after: avoid; }
+  p { text-align: justify; text-indent: 1.25cm; margin: 0 0 0.16cm; hyphens: auto; orphans: 3; widows: 3; }
+  p.noindent { text-indent: 0; }
+  ul, ol { margin: 0.05cm 0 0.2cm 0; padding-left: 1.1cm; text-align: justify; }
+  li { margin-bottom: 0.06cm; }
+  code { font-family: Consolas, "Courier New", monospace; font-size: 9.3pt; }
+  figure { margin: 0.3cm 0 0.35cm; break-inside: avoid; text-align: center; }
+  figure img { display: block; margin: 0 auto; border: 0.5pt solid #999; }
+  .row { display: flex; justify-content: center; gap: 0.3cm; align-items: flex-end; }
+  .sub { display: flex; flex-direction: column; align-items: center; font-size: 9.5pt; }
+  .sub span { margin-top: 0.08cm; }
+  figcaption, .tcaption { font-size: 9.8pt; text-align: justify; margin: 0.15cm 0.6cm 0; line-height: 1.3; }
+  .tcaption { margin: 0 0.3cm 0.12cm; }
+  .tablewrap .tcaption { text-align: center; }
+  table { border-collapse: collapse; margin: 0 auto; font-size: 9.6pt; line-height: 1.28; }
+  th, td { padding: 0.07cm 0.16cm; vertical-align: top; text-align: left; }
+  thead th { border-top: 1pt solid #000; border-bottom: 0.6pt solid #000; }
+  tbody tr:last-child td { border-bottom: 1pt solid #000; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  .tablewrap { margin: 0.3cm 0 0.4cm; break-inside: avoid; }
+  .eq { display: flex; align-items: center; margin: 0.2cm 0; break-inside: avoid; }
+  .eq math { flex: 1; font-size: 13pt; }
+  .eq .n { flex: none; width: 1.3cm; text-align: right; padding-left: 0.3cm; }
+  .eq.small math { font-size: 11.5pt; }
+  .symbols { margin: 0.05cm 0 0.25cm; padding-left: 1.1cm; font-size: 10.8pt; }
+  .symbols li { margin-bottom: 0.04cm; }
+  .refs p { text-indent: -0.8cm; padding-left: 0.8cm; text-align: left; font-size: 10.3pt; margin-bottom: 0.12cm; }
+  .box { border: 0.6pt solid #000; padding: 0.2cm 0.35cm; margin: 0.3cm 0; break-inside: avoid; }
+  .box p { text-indent: 0; }
+</style>
+</head>
+<body>
+<div class="title">Personagem Hierárquico Animado com Captura de Movimentos<br>e Animação Procedural em um Jogo Godot</div>
+<div class="authors">
+  Cristian Alexandre Alchini (20100519),
+  Lucas Cardoso Soares (22100631),<br>
+  Pedro Henrique De Sena Trombini Taglialenha (22203674)
+</div>
+<div class="affiliation">
+  Departamento de Informática e Estatística (INE) – Universidade Federal de Santa Catarina (UFSC)<br>
+  Florianópolis – SC – Brasil<br>
+  INE5420 – Computação Gráfica – Trabalho 4.0 (Modelos Hierárquicos) – 2026/2
+</div>
+
+<div class="abstract">
+  <p><b>Abstract.</b> This report describes a small Godot game whose character is a 28-bone hierarchical
+  model, animated in two ways that the player can switch at run time: clips cut from the motion capture
+  recorded by the class, and procedural walk and run cycles built with analytic two-bone leg inverse
+  kinematics. A scripted scene replays the complete capture takes, nearly nine minutes, with the original
+  root motion. The capture clips were selected automatically by minimising the joint-angle difference between
+  the first and last poses, made to play in place and closed seamlessly. The character, a robot witch
+  inspired by the folklore of Franklin Cascaes, was generated with generative AI (Stable Diffusion 3.5 and
+  Hunyuan3D-2, the latter running locally on an AMD GPU) and bound to the capture skeleton with automatic
+  weights. The report also documents the problems found along the way and how they were solved. Thirty-five
+  automated checks, two demo videos and Windows and Linux builds complete the delivery.</p>
+  <p><b>Resumo.</b> Este relatório descreve um pequeno jogo em Godot cujo personagem é um modelo hierárquico
+  de 28 ossos, animado de duas formas que o jogador alterna durante o jogo: clipes recortados da captura de
+  movimentos gravada pela turma e ciclos procedurais de andar e correr, construídos com cinemática inversa
+  analítica de dois ossos nas pernas. Uma cena automática reproduz as tomadas completas da captura, quase
+  nove minutos, com o deslocamento original. Os clipes da captura foram escolhidos automaticamente pela menor
+  diferença de ângulo das articulações entre a primeira e a última pose, postos para tocar no lugar e
+  fechados sem emenda. O personagem, um robô-bruxa inspirado no imaginário de Franklin Cascaes, foi gerado
+  com IA gerativa (Stable Diffusion 3.5 e Hunyuan3D-2, este rodando localmente em uma GPU AMD) e ligado ao
+  esqueleto da captura com pesos automáticos. O relatório também documenta os problemas encontrados e como
+  foram resolvidos. Trinta e cinco verificações automáticas, dois vídeos de demonstração e executáveis para
+  Windows e Linux completam a entrega.</p>
+</div>
+<div class="keywords"><b>Palavras-chave:</b> modelos hierárquicos; captura de movimentos; cinemática inversa; <em>skinning</em>; IA gerativa; Godot.</div>
+
+<h1>1. Introdução</h1>
+
+<p>O Trabalho 4.0 pede um modelo hierárquico que simule a movimentação de um bicho, robô ou pessoa, com
+pelo menos dois tipos de movimento, como andar e correr. A orientação complementar do professor pede que
+o personagem seja animado com captura de movimentos (MoCap), de preferência a gravada pela própria turma.
+A página de IA gerativa da disciplina propõe um personagem inspirado em Franklin Cascaes, um ambiente nas
+fortalezas da Ilha de Santa Catarina e uma jogabilidade mínima com pontuação. O uso documentado de IA
+gerativa no personagem vale até dois pontos extras.</p>
+
+<p>O resultado é o jogo <em>Fortaleza em Movimento</em>: o jogador anda (WASD) e corre (Shift) com um robô-bruxa
+em uma fortaleza simplificada, inspirada na de Anhatomirim, e coleta moedas. O trabalho apresenta duas
+versões de animação para o mesmo esqueleto:</p>
+<ul>
+  <li><b>captura da turma:</b> uma cena automática reproduz as oito tomadas completas, sem controle do
+  jogador, e clipes de parado, andar e correr recortados delas também podem ser usados no controle WASD;</li>
+  <li><b>procedural:</b> ciclos de parado, andar e correr calculados matematicamente, com cinemática inversa
+  nas pernas. É a versão padrão do controle WASD, mais regular e com velocidades de jogo naturais.</li>
+</ul>
+<p class="noindent">A tecla Tab alterna entre as versões durante o jogo, com transição suave. A Seção 2 apresenta
+os fundamentos, a Seção 3 descreve o método, a Seção 4 relata o progresso e as dificuldades, a Seção 5 mostra
+os resultados, a Seção 6 declara o uso de IA, e as Seções 7 e 8 trazem as limitações e a conclusão.</p>
+
+<h1>2. Fundamentação</h1>
+
+<h2>2.1. Modelos hierárquicos e cinemática direta</h2>
+
+<p>Em um modelo hierárquico, cada parte do corpo é posicionada em relação à parte da qual depende. O
+esqueleto é uma árvore de ossos (Figura 1): mover o quadril leva o corpo inteiro, mover o braço leva o
+antebraço e a mão. Cada osso <i>b</i> tem uma pose de repouso <i>R</i><sub><i>b</i></sub> e, a cada quadro, uma
+transformação local <i>L</i><sub><i>b</i></sub> relativa ao repouso. A transformação global é obtida descendo a
+árvore a partir da raiz (Equação 1), o que se chama cinemática direta [Parent 2012].</p>
+
+<div class="eq">
+<math display="block">
+  <msub><mi>G</mi><mi>b</mi></msub><mo>=</mo>
+  <msub><mi>G</mi><mrow><mi>p</mi><mo>(</mo><mi>b</mi><mo>)</mo></mrow></msub>
+  <mo>·</mo>
+  <mrow><mo>(</mo><msubsup><mi>R</mi><mrow><mi>p</mi><mo>(</mo><mi>b</mi><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msubsup><msub><mi>R</mi><mi>b</mi></msub><mo>)</mo></mrow>
+  <mo>·</mo><msub><mi>L</mi><mi>b</mi></msub>
+</math>
+<span class="n">(1)</span>
+</div>
+
+<figure>
+<svg width="660" height="300" viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Times New Roman, serif" font-size="12">
+<g stroke="#000" stroke-width="1" fill="none">
+<path d="M330 28 V44 M70 44 H590 M70 44 V52 M330 44 V52 M590 44 V52"/>
+<path d="M330 72 V88 M200 88 H460 M200 88 V96 M330 88 V96 M460 88 V96"/>
+<path d="M70 72 V96"/>
+<path d="M70 116 V140"/>
+<path d="M70 160 V184"/>
+<path d="M70 204 V228"/>
+<path d="M590 72 V96"/>
+<path d="M590 116 V140"/>
+<path d="M590 160 V184"/>
+<path d="M590 204 V228"/>
+<path d="M200 116 V140"/>
+<path d="M200 160 V184"/>
+<path d="M200 204 V228"/>
+<path d="M460 116 V140"/>
+<path d="M460 160 V184"/>
+<path d="M460 204 V228"/>
+<path d="M330 116 V140"/>
+<path d="M200 248 V266 M154 266 H246 M154 266 V272 M246 266 V272"/>
+<path d="M460 248 V266 M414 266 H506 M414 266 V272 M506 266 V272"/>
+</g>
+<rect x="271.0" y="8" width="118" height="20" fill="#e8e8e8" stroke="#000"/><text x="330" y="22.5" text-anchor="middle"><tspan font-weight="bold">Hips (raiz)</tspan></text>
+<rect x="11.0" y="52" width="118" height="20" fill="#fff" stroke="#000"/><text x="70" y="66.5" text-anchor="middle">LeftUpLeg</text>
+<rect x="271.0" y="52" width="118" height="20" fill="#fff" stroke="#000"/><text x="330" y="66.5" text-anchor="middle">Spine</text>
+<rect x="531.0" y="52" width="118" height="20" fill="#fff" stroke="#000"/><text x="590" y="66.5" text-anchor="middle">RightUpLeg</text>
+<rect x="11.0" y="96" width="118" height="20" fill="#fff" stroke="#000"/><text x="70" y="110.5" text-anchor="middle">LeftLeg</text>
+<rect x="141.0" y="96" width="118" height="20" fill="#fff" stroke="#000"/><text x="200" y="110.5" text-anchor="middle">LeftShoulder</text>
+<rect x="271.0" y="96" width="118" height="20" fill="#fff" stroke="#000"/><text x="330" y="110.5" text-anchor="middle">Head</text>
+<rect x="401.0" y="96" width="118" height="20" fill="#fff" stroke="#000"/><text x="460" y="110.5" text-anchor="middle">RightShoulder</text>
+<rect x="531.0" y="96" width="118" height="20" fill="#fff" stroke="#000"/><text x="590" y="110.5" text-anchor="middle">RightLeg</text>
+<rect x="11.0" y="140" width="118" height="20" fill="#fff" stroke="#000"/><text x="70" y="154.5" text-anchor="middle">LeftFoot</text>
+<rect x="141.0" y="140" width="118" height="20" fill="#fff" stroke="#000"/><text x="200" y="154.5" text-anchor="middle">LeftArm</text>
+<rect x="271.0" y="140" width="118" height="20" fill="#fff" stroke="#000"/><text x="330" y="154.5" text-anchor="middle">Head_End</text>
+<rect x="401.0" y="140" width="118" height="20" fill="#fff" stroke="#000"/><text x="460" y="154.5" text-anchor="middle">RightArm</text>
+<rect x="531.0" y="140" width="118" height="20" fill="#fff" stroke="#000"/><text x="590" y="154.5" text-anchor="middle">RightFoot</text>
+<rect x="11.0" y="184" width="118" height="20" fill="#fff" stroke="#000"/><text x="70" y="198.5" text-anchor="middle">LeftToeBase</text>
+<rect x="141.0" y="184" width="118" height="20" fill="#fff" stroke="#000"/><text x="200" y="198.5" text-anchor="middle">LeftForeArm</text>
+<rect x="401.0" y="184" width="118" height="20" fill="#fff" stroke="#000"/><text x="460" y="198.5" text-anchor="middle">RightForeArm</text>
+<rect x="531.0" y="184" width="118" height="20" fill="#fff" stroke="#000"/><text x="590" y="198.5" text-anchor="middle">RightToeBase</text>
+<rect x="11.0" y="228" width="118" height="20" fill="#fff" stroke="#000"/><text x="70" y="242.5" text-anchor="middle">LeftToeEnd</text>
+<rect x="141.0" y="228" width="118" height="20" fill="#fff" stroke="#000"/><text x="200" y="242.5" text-anchor="middle">LeftHand</text>
+<rect x="401.0" y="228" width="118" height="20" fill="#fff" stroke="#000"/><text x="460" y="242.5" text-anchor="middle">RightHand</text>
+<rect x="531.0" y="228" width="118" height="20" fill="#fff" stroke="#000"/><text x="590" y="242.5" text-anchor="middle">RightToeEnd</text>
+<g font-size="10.5"><rect x="106.0" y="272" width="96" height="20" fill="#fff" stroke="#000"/><text x="154" y="286.5" text-anchor="middle">Thumb1→Thumb2</text><rect x="216.0" y="272" width="60" height="20" fill="#fff" stroke="#000"/><text x="246" y="286.5" text-anchor="middle">HandEnd</text></g>
+<g font-size="10.5"><rect x="366.0" y="272" width="96" height="20" fill="#fff" stroke="#000"/><text x="414" y="286.5" text-anchor="middle">Thumb1→Thumb2</text><rect x="476.0" y="272" width="60" height="20" fill="#fff" stroke="#000"/><text x="506" y="286.5" text-anchor="middle">HandEnd</text></g>
+</svg>
+<figcaption><b>Figura 1.</b> Hierarquia completa do esqueleto das capturas (28 ossos). As pernas são filhas do quadril (<code>Hips</code>, a raiz); braços e cabeça são filhos da coluna (<code>Spine</code>, um único osso do quadril ao tórax). Nas mãos, os polegares têm dois ossos (<code>Thumb1</code> → <code>Thumb2</code>); os ossos <code>End</code> marcam a ponta de cada cadeia.</figcaption>
+</figure>
+
+<h2>2.2. Captura óptica de movimentos</h2>
+
+<p>Na captura óptica, o ator veste marcadores refletivos e câmeras infravermelhas registram suas posições.
+Um programa de <em>solving</em> ajusta, quadro a quadro, um esqueleto aos marcadores e grava as rotações das
+articulações e a posição do quadril. As capturas da turma são 9 arquivos FBX a 120 quadros por segundo, com
+o mesmo esqueleto de 28 ossos e em escala real.</p>
+
+<h2>2.3. Cinemática inversa de dois ossos</h2>
+
+<p>Na cinemática inversa, a pose é calculada a partir de onde se quer que a extremidade esteja. Para uma
+perna com coxa de comprimento <i>l</i><sub>1</sub> e canela <i>l</i><sub>2</sub>, quadril em <i>H</i> e tornozelo
+desejado em <i>A</i>, o joelho <i>K</i> sai da lei dos cossenos (Equação 2), em que <i>L</i> = |<i>A</i> − <i>H</i>|,
+<i>d̂</i> é a direção de <i>H</i> para <i>A</i> e <i>n̂</i> é a direção, perpendicular a <i>d̂</i>, para onde o
+joelho dobra (a frente do corpo) [Aristidou et al. 2018].</p>
+
+<div class="eq">
+<math display="block">
+  <mi>K</mi><mo>=</mo><mi>H</mi><mo>+</mo><mi>a</mi><mover><mi>d</mi><mo>^</mo></mover><mo>+</mo><mi>h</mi><mover><mi>n</mi><mo>^</mo></mover>
+  <mo>,</mo><mspace width="0.8em"/>
+  <mi>a</mi><mo>=</mo><mfrac><mrow><msubsup><mi>l</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><msubsup><mi>l</mi><mn>2</mn><mn>2</mn></msubsup><mo>+</mo><msup><mi>L</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>L</mi></mrow></mfrac>
+  <mo>,</mo><mspace width="0.8em"/>
+  <mi>h</mi><mo>=</mo><msqrt><mrow><msubsup><mi>l</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt>
+</math>
+<span class="n">(2)</span>
+</div>
+
+<h2>2.4. <em>Skinning</em> e pesos automáticos</h2>
+
+<p>Para a malha acompanhar o esqueleto, cada vértice recebe pesos que dizem quanto ele segue cada osso. No
+<em>linear blend skinning</em> [Magnenat-Thalmann et al. 1988], a posição deformada é a média ponderada das
+transformações dos ossos aplicadas ao vértice em repouso (Equação 3). Os pesos foram calculados pela difusão
+de calor do Blender (<em>bone heat</em>) [Baran e Popović 2007].</p>
+
+<div class="eq">
+<math display="block">
+  <msup><mi>v</mi><mo>′</mo></msup><mo>=</mo>
+  <munder><mo>∑</mo><mi>b</mi></munder><msub><mi>w</mi><mi>b</mi></msub>
+  <msub><mi>G</mi><mi>b</mi></msub><msubsup><mi>R</mi><mi>b</mi><mrow><mo>−</mo><mn>1</mn></mrow></msubsup><mi>v</mi>
+  <mo>,</mo><mspace width="1em"/>
+  <munder><mo>∑</mo><mi>b</mi></munder><msub><mi>w</mi><mi>b</mi></msub><mo>=</mo><mn>1</mn>
+</math>
+<span class="n">(3)</span>
+</div>
+
+<h2>2.5. Mistura de animações e deslizamento dos pés</h2>
+
+<p>As poses dos clipes são misturadas com pesos que dependem da velocidade, em um <em>blend space</em> de uma
+dimensão (parado em 0, andar e correr nas suas velocidades), com rotações interpoladas por quatérnios
+[Shoemake 1985]. Os clipes tocam "no lugar", sem o deslocamento horizontal do quadril, que é feito pelo
+controlador. Se o controlador andar em velocidade diferente daquela para a qual o clipe foi feito, os pés
+parecem patinar; por isso cada versão de animação usa as suas próprias velocidades.</p>
+
+<h1>3. Método</h1>
+
+<p>A Figura 2 resume o caminho. Todo o processo é reproduzível por scripts (Blender em modo sem janela,
+Python e Godot).</p>
+
+<figure>
+<svg width="620" height="170" viewBox="0 0 620 170" xmlns="http://www.w3.org/2000/svg" font-family="Times New Roman, serif" font-size="12">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z"/></marker></defs>
+  <g fill="#fff" stroke="#000">
+    <rect x="5" y="4" width="140" height="44" rx="4"/><rect x="170" y="4" width="140" height="44" rx="4"/>
+    <rect x="170" y="62" width="140" height="44" rx="4"/>
+    <rect x="5" y="120" width="140" height="44" rx="4"/><rect x="170" y="120" width="140" height="44" rx="4"/>
+    <rect x="335" y="62" width="135" height="44" rx="4"/><rect x="490" y="62" width="125" height="44" rx="4"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="75" y="22">Capturas da turma</text><text x="75" y="39">(9 FBX, 120 fps)</text>
+    <text x="240" y="22">Clipes em loop +</text><text x="240" y="39">8 tomadas completas</text>
+    <text x="240" y="80">Ciclos procedurais</text><text x="240" y="97">(IK de 2 ossos)</text>
+    <text x="75" y="138">Conceito (SD 3.5)</text><text x="75" y="155">→ forma (Hunyuan3D)</text>
+    <text x="240" y="138">Textura local</text><text x="240" y="155">(Hunyuan3D-Paint)</text>
+    <text x="402" y="80">Encaixe e pesos</text><text x="402" y="97">(Blender) → GLB</text>
+    <text x="552" y="80">Godot: jogo, cena,</text><text x="552" y="97">testes, vídeos</text>
+  </g>
+  <g stroke="#000" stroke-width="1.2" marker-end="url(#a)">
+    <line x1="145" y1="26" x2="168" y2="26"/><line x1="145" y1="142" x2="168" y2="142"/>
+    <line x1="310" y1="26" x2="333" y2="72"/><line x1="310" y1="84" x2="333" y2="84"/><line x1="310" y1="142" x2="333" y2="96"/>
+    <line x1="470" y1="84" x2="488" y2="84"/>
+  </g>
+</svg>
+<figcaption><b>Figura 2.</b> Etapas do trabalho: a captura da turma (em cima), as animações procedurais (no meio) e o personagem gerado por IA (embaixo) se juntam no encaixe da malha ao esqueleto.</figcaption>
+</figure>
+
+<h2>3.1. Análise das capturas</h2>
+
+<p>Para achar trechos de caminhada e corrida em mais de duas horas de gravação, um script mediu, segundo a
+segundo, a velocidade do quadril e a <em>fase de voo</em> (os dois pés acima de 6 cm do chão ao mesmo tempo),
+que distingue a corrida da caminhada (Figura 3). A sala de captura é pequena (cerca de 5 m × 3 m), por isso as
+corridas duram só 2 a 3 s e saem com o corpo inclinado.</p>
+
+<figure>
+<img src="figuras/mocap_bonecos.png" style="width:15cm">
+<figcaption><b>Figura 3.</b> Esqueleto da captura em 8 instantes de uma caminhada (acima) e de uma corrida (abaixo). Na corrida, os dois pés deixam o chão ao mesmo tempo.</figcaption>
+</figure>
+
+<h2>3.2. Clipes da captura e tomadas completas</h2>
+
+<p>Um clipe de locomoção precisa terminar na pose em que começa. Para cada movimento, o script avalia
+todos os pares de quadros (<i>s</i>, <i>e</i>) dos trechos candidatos e escolhe o de menor custo (Equação 4), que
+combina a diferença entre as duas poses com penalidades por trajetória curva, por mudança de direção e por
+deslocamento fora da frente do corpo. É a mesma ideia dos pontos de transição dos grafos de movimento
+[Kovar et al. 2002].</p>
+
+<div class="eq small">
+<math display="block">
+  <mtable columnalign="left">
+    <mtr><mtd>
+      <mi>c</mi><mo>(</mo><mi>s</mi><mo>,</mo><mi>e</mi><mo>)</mo><mo>=</mo>
+      <munder><mo>∑</mo><mrow><mi>b</mi><mo>∈</mo><mi>B</mi></mrow></munder>
+      <msub><mi>θ</mi><mi>b</mi></msub><mo>(</mo><mi>s</mi><mo>,</mo><mi>e</mi><mo>)</mo>
+      <mo>+</mo><msub><mi>λ</mi><mn>1</mn></msub><mo>(</mo><mi>ℓ</mi><mo>−</mo><mi>d</mi><mo>)</mo>
+    </mtd></mtr>
+    <mtr><mtd>
+      <mspace width="3.2em"/><mo>+</mo><msub><mi>λ</mi><mn>2</mn></msub><mo lspace="0" rspace="0">|</mo><mi mathvariant="normal">Δ</mi><mi>ψ</mi><mo lspace="0" rspace="0">|</mo>
+      <mo>+</mo><msub><mi>λ</mi><mn>3</mn></msub><mo lspace="0" rspace="0">|</mo><mi>α</mi><mo lspace="0" rspace="0">|</mo>
+    </mtd></mtr>
+  </mtable>
+</math>
+<span class="n">(4)</span>
+</div>
+<p class="noindent">em que:</p>
+<ul class="symbols">
+  <li><i>s</i> e <i>e</i>: quadros candidatos a início e fim do loop, dentro de uma faixa de duração para cada movimento;</li>
+  <li><i>B</i>: os 19 ossos principais, isto é, os 28 da Figura 1 menos os 5 ossos finais <code>End</code> e os 4 dos polegares;</li>
+  <li><i>θ</i><sub><i>b</i></sub>(<i>s</i>, <i>e</i>): ângulo, em radianos, entre a orientação do osso <i>b</i> no quadro <i>s</i> e no quadro <i>e</i>, ambas medidas em relação ao quadril (no próprio quadril, só a inclinação conta), de modo que a posição e a direção do corpo na sala não interferem. A soma mede o quanto as duas poses diferem;</li>
+  <li><i>ℓ</i> e <i>d</i>: comprimento do caminho percorrido pelo quadril no chão entre <i>s</i> e <i>e</i> e distância em linha reta entre os dois pontos (a corda). A diferença <i>ℓ</i> − <i>d</i> é zero em linha reta e cresce com a curvatura;</li>
+  <li>Δ<i>ψ</i>: mudança de direção (rumo) do quadril entre <i>s</i> e <i>e</i>, em radianos;</li>
+  <li><i>α</i>: ângulo entre a direção do deslocamento do quadril e a direção média em que o corpo está voltado. Penaliza trechos em que a pessoa andou de lado ou de costas; só é calculado quando o deslocamento passa de 0,2 m;</li>
+  <li><i>λ</i><sub>1</sub> = 2 rad/m, <i>λ</i><sub>2</sub> = 3 e <i>λ</i><sub>3</sub> = 4: pesos escolhidos empiricamente para pôr os termos em escalas comparáveis. Quanto menor <i>c</i>, menos visível é a emenda do loop.</li>
+</ul>
+
+<p>O deslocamento horizontal do quadril é então removido por uma translação, que desfaz o avanço em
+velocidade constante, e por uma rotação em torno do eixo vertical, que alinha a caminhada com a frente do
+personagem. A pequena diferença que resta entre a primeira e a última pose é distribuída ao longo do clipe:
+cada rotação recebe uma fração crescente da correção, interpolada por <em>slerp</em>. As poses são reescritas em
+um esqueleto limpo (em metros, com Z para cima) com os 28 ossos da captura (Tabela 1). Para a cena automática,
+as oito tomadas completas (536,8 s no total) foram convertidas da mesma forma, mas <b>mantendo</b> a trajetória
+original do quadril.</p>
+
+<div class="tablewrap">
+<div class="tcaption"><b>Tabela 1.</b> Clipes extraídos das capturas da turma.</div>
+<table>
+<thead><tr><th>Clipe</th><th>Origem</th><th class="num">Duração</th><th class="num">Velocidade</th><th class="num">Custo</th></tr></thead>
+<tbody>
+<tr><td>parado</td><td><code>Movimentos02.fbx</code>, 20,1–22,1 s</td><td class="num">2,0 s</td><td class="num">—</td><td class="num">0,9</td></tr>
+<tr><td>andar</td><td><code>Movimentos02.fbx</code>, 61,2–63,8 s</td><td class="num">2,6 s</td><td class="num">0,99 m/s</td><td class="num">4,7</td></tr>
+<tr><td>correr</td><td><code>Movimentos06.fbx</code>, 19,6–21,1 s</td><td class="num">1,5 s</td><td class="num">1,86 m/s</td><td class="num">10,0</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>3.3. Animação procedural</h2>
+
+<p>A segunda versão de animação foi escrita do zero (<code>blender/procedural_gait.py</code>). Cada ciclo é uma
+função periódica da fase φ ∈ [0, 1), o que garante um loop perfeito. Para cada quadro:</p>
+<ol>
+  <li><b>Quadril:</b> sobe e desce duas vezes por ciclo (no andar, mais alto no meio do apoio; na corrida, mais
+  baixo), balança de lado e gira levemente para acompanhar a perna que avança;</li>
+  <li><b>Pés:</b> no apoio (fração β do ciclo), o pé fica plantado e recua exatamente na velocidade do corpo;
+  no balanço, avança em um arco suavizado, com toque de calcanhar no início e rolamento até a ponta no fim;</li>
+  <li><b>Pernas:</b> coxa e canela são resolvidas pela cinemática inversa da Equação 2;</li>
+  <li><b>Tronco, braços e cabeça:</b> o tórax gira ao contrário do quadril e se inclina na corrida, os braços
+  balançam em oposição às pernas, com os cotovelos dobrados, e a cabeça fica estável.</li>
+</ol>
+<p class="noindent">Cada osso recebe uma rotação global desejada <i>D</i><sub><i>b</i></sub>, e a rotação local sai da
+Equação 1: <i>L</i><sub><i>b</i></sub> = <i>R</i><sub><i>b</i></sub><sup>−1</sup> <i>D</i><sub><i>p</i>(<i>b</i>)</sub><sup>−1</sup>
+<i>D</i><sub><i>b</i></sub> <i>R</i><sub><i>b</i></sub>. O andar tem ciclo de 1,1 s a 1,35 m/s (β = 0,62) e a corrida, de
+0,7 s a 2,8 m/s (β = 0,36, com fase de voo). Medido no Blender, o pé de apoio recua a 1,35 m/s no andar e a
+2,79–2,80 m/s na corrida, exatamente a velocidade do controlador, o que confirma que os pés não deslizam.
+A Figura 4 compara as duas versões.</p>
+
+<figure>
+<img src="figuras/ciclos_procedurais.png" style="width:15.4cm">
+<img src="figuras/ciclos_mocap.png" style="width:15.4cm; margin-top:0.15cm">
+<figcaption><b>Figura 4.</b> Oito quadros de cada ciclo, vistos de lado. Em cima, a animação procedural (andar e correr); embaixo, os clipes da captura da turma (andar e correr). A corrida capturada é baixa e com saltos, reflexo da sala pequena; a procedural é regular, com passada mais longa.</figcaption>
+</figure>
+
+<h2>3.4. Personagem gerado com IA</h2>
+
+<p>O conceito foi gerado pelo Stable Diffusion 3.5 Large Turbo [Esser et al. 2024]: um robô-bruxa inspirado nas
+bruxas de Franklin Cascaes, em pose T e com as pernas separadas, exigências técnicas para o encaixe no
+esqueleto da captura. A forma 3D foi gerada pelo Hunyuan3D-2 [Tencent Hunyuan3D Team 2025] a partir da imagem
+com o fundo recortado (Figura 5), e a textura pelo Hunyuan3D-Paint, rodando no computador do grupo, em uma
+Radeon RX 9070 XT, com o PyTorch oficial da AMD (Figura 6). As tentativas que falharam estão na Seção 4.</p>
+
+<figure>
+<div class="row">
+  <div class="sub"><img src="figuras/conceito.png" style="width:3.5cm"><span>(a) Conceito (SD 3.5)</span></div>
+  <div class="sub"><img src="figuras/hy_a.png" style="width:3.6cm"><span>(b) 1ª tentativa: sem braços</span></div>
+  <div class="sub"><img src="figuras/hy_b.png" style="width:3.6cm"><span>(c) 2ª tentativa: moldura</span></div>
+  <div class="sub"><img src="figuras/hy_c.png" style="width:3.6cm"><span>(d) Forma final</span></div>
+</div>
+<figcaption><b>Figura 5.</b> Do conceito à forma 3D. As tentativas (b) e (c) falharam pelos motivos descritos na Seção 4.</figcaption>
+</figure>
+
+<figure>
+<img src="figuras/textura_local.png" style="width:14cm">
+<figcaption><b>Figura 6.</b> Textura gerada localmente pelo Hunyuan3D-Paint: frente, lateral e costas (313 s na GPU, pico de 11,5 GiB).</figcaption>
+</figure>
+
+<h2>3.5. Encaixe da malha no esqueleto</h2>
+
+<p>Um script do Blender importa a malha texturizada, junta os vértices que o formato glTF duplica nas
+costuras, remove fragmentos soltos e encaixa a malha na pose de repouso: escala pela envergadura dos braços
+(×1,14), uma correção vertical limitada (×0,965) e uma translação que põe os pés no chão. Os pesos automáticos
+alcançaram os 19.952 vértices (Figura 7).</p>
+
+<figure>
+<img src="figuras/personagem_poses.png" style="width:15.4cm">
+<figcaption><b>Figura 7.</b> Personagem final ligado ao esqueleto: pose de repouso, parado, dois quadros de andar e dois de correr (clipes da captura).</figcaption>
+</figure>
+
+<h2>3.6. O jogo em Godot</h2>
+
+<p>O personagem é um <code>CharacterBody3D</code>; o <code>Skeleton3D</code> importado executa a cinemática direta.
+Uma <code>AnimationTree</code> tem dois <code>BlendSpace1D</code>, um por versão de animação, unidos por um nó
+<code>Blend2</code> que faz a transição suave quando o jogador aperta Tab. A cada quadro de física, o controlador
+lê o teclado, calcula a direção relativa à câmera, acelera até a velocidade de andar ou correr da versão ativa,
+gira o corpo para a direção do movimento e envia a velocidade aos dois <em>blend spaces</em>. O cenário é uma
+fortaleza simplificada com muralhas, guaritas, quartel, canhões (cada um, um pequeno modelo hierárquico) e
+tochas com luz própria; moedas somam pontos. A cena automática da captura (<code>--mocap-show</code>) toca as oito
+tomadas completas em sequência, com uma câmera que orbita o personagem e uma legenda com o nome da tomada.</p>
+
+<h1>4. Progresso e dificuldades</h1>
+
+<p>O trabalho não saiu certo da primeira vez. A Tabela 2 resume, em ordem cronológica, os problemas
+encontrados e o que foi feito para resolvê-los. Vários deles só apareceram ao <b>olhar</b> o resultado
+(renders e prints), e alguns foram pegos pelas verificações automáticas.</p>
+
+<div class="tablewrap">
+<div class="tcaption"><b>Tabela 2.</b> Problemas encontrados e soluções, em ordem cronológica.</div>
+<table>
+<thead><tr><th>Problema</th><th>Como apareceu</th><th>Solução</th></tr></thead>
+<tbody>
+<tr><td>Achar corridas em 2 h de gravação, numa sala pequena</td><td>Velocidade média raramente passa de 2 m/s</td><td>Detecção de fase de voo (Seção 3.1)</td></tr>
+<tr><td>Manequim com "lâminas" nos braços (Figura 8)</td><td>Print do jogo</td><td>Pesos gravados vértice a vértice na camada de deformação, em vez de calcular faixas de índices</td></tr>
+<tr><td>Loops com "tranco" (34° por articulação na corrida)</td><td>Custo do loop alto</td><td>Busca em todos os trechos candidatos das 8 capturas</td></tr>
+<tr><td>Piloto automático ignorava comandos</td><td>Teste automático falhou</td><td>Zerar o relógio ao trocar de roteiro</td></tr>
+<tr><td>Cota de GPU anônima do Hugging Face esgotada</td><td>Erro do serviço</td><td>Conta gratuita com token salvo localmente</td></tr>
+<tr><td>Malha sem braços; depois, com moldura (Figura 5b, c)</td><td>Render da malha</td><td>Recorte de fundo próprio, imagem transparente</td></tr>
+<tr><td>Moldura presa ao personagem e animada com os braços (Figura 10a)</td><td>Render das animações</td><td>Gerar a malha a partir da imagem transparente (sem moldura)</td></tr>
+<tr><td>Recorte da moldura por máscara 2D destruiu a malha (Figura 10b)</td><td>Render das animações</td><td>Abandonado; mesma solução acima</td></tr>
+<tr><td>Textura do Hunyuan3D desativada no serviço; versão 2.1 acima da cota</td><td>Erros do serviço</td><td>Textura provisória projetada (Figura 9), depois Hunyuan3D-Paint local na GPU AMD</td></tr>
+<tr><td>Hunyuan3D-Paint não roda na AMD/Windows</td><td>Extensão CUDA; erro de <em>kernel</em> na GPU integrada</td><td>Rasterizador reescrito em PyTorch (idêntico ao original em 100% dos pixels); GPU integrada desativada; <em>flash attention</em> experimental verificado</td></tr>
+<tr><td>Pesos automáticos falharam em 100% dos vértices</td><td>Teste com malha substituta</td><td>Juntar vértices duplicados pelo glTF</td></tr>
+<tr><td>Arquivo <code>.blend</code> de 292 MB</td><td>Tamanho do arquivo</td><td>Remover as tomadas originais embutidas</td></tr>
+<tr><td>Clipes tocando <b>4 vezes mais rápido</b> no jogo</td><td>Medição do pé de apoio a 5,4 m/s em vez de 1,35</td><td>Restaurar 30 fps na cena antes de exportar (a importação do FBX muda para 120); novo teste de duração</td></tr>
+<tr><td>Corrida da captura "de lado"</td><td>Vista lateral mostrava as costas</td><td>Penalidade por deslocamento fora da frente do corpo (Equação 4)</td></tr>
+</tbody>
+</table>
+</div>
+
+<figure>
+<img src="figuras/bug_manequim.png" style="width:15cm">
+<figcaption><b>Figura 8.</b> Primeiro manequim, reproduzido com o código antigo para este relatório: perfeito em repouso (à esquerda), mas, ao animar, peças ligadas ao osso errado se esticam em "lâminas". O código assumia que os vértices de cada peça eram os últimos criados, o que não vale para a geometria do <code>bmesh</code>.</figcaption>
+</figure>
+
+<figure>
+<img src="figuras/textura_projetada.png" style="width:14cm">
+<figcaption><b>Figura 9.</b> Textura provisória: a imagem do Stable Diffusion projetada de frente, com uma versão desfocada nas costas. Funcionou, mas as laterais esticavam; foi substituída pela textura do Hunyuan3D-Paint (Figura 6).</figcaption>
+</figure>
+
+
+<p>Na geração do personagem, duas tentativas de aproveitar a malha com moldura (Figura 5c) falharam, ambas
+visíveis na Figura 10:</p>
+<ul>
+  <li><b>(a) Moldura presa ao personagem.</b> Sem a remoção de fundo, o Hunyuan3D reconstruiu a borda da imagem
+  como uma moldura fina. Ela encosta na ponta do chapéu e nas botas, então forma uma única peça conectada com o
+  personagem, e a limpeza de fragmentos soltos não a removeu. A difusão de calor distribuiu os pesos da moldura
+  entre os ossos mais próximos, os das mãos e dos braços, e ela passou a balançar com eles. Cortar a faixa
+  superior também não bastou, porque a moldura continuava presa pelas botas.</li>
+  <li><b>(b) Recorte por máscara 2D.</b> A ideia era apagar os vértices que, vistos de frente, caem sobre o fundo
+  da imagem. Para isso, a caixa da malha foi alinhada à caixa da imagem, mas as duas não coincidiam exatamente,
+  e a máscara desalinhada apagou partes dos braços, das costas e do chapéu (58.403 vértices). Com a superfície
+  cheia de buracos, a difusão de calor falhou em todos os 21.238 vértices, e os pesos de reserva, calculados pelo
+  osso mais próximo, ligaram a aba do chapéu aos ombros: o chapéu se dobra quando os braços se movem.</li>
+</ul>
+<p class="noindent">As duas falhas tinham a mesma causa, a moldura. A solução foi tratar a origem: recortar o fundo da
+imagem antes e enviá-la transparente ao Hunyuan3D, o que gerou a malha limpa da Figura 5d.</p>
+
+<figure>
+<img src="figuras/falha_moldura.png" style="width:15cm">
+<img src="figuras/falha_mascara.png" style="width:12.5cm; margin-top:0.15cm">
+<figcaption><b>Figura 10.</b> Falhas no encaixe do personagem gerado por IA. (a) Em cima, a moldura presa ao chapéu e às botas, animada junto com os braços (reproduzida para este relatório com a malha e o código daquela tentativa): repouso, dois quadros de andar e um de correr. (b) Embaixo, o recorte por máscara 2D desalinhado (render da época): buracos na malha e o chapéu dobrando com os ombros.</figcaption>
+</figure>
+
+<p>O erro mais traiçoeiro foi o da velocidade dos clipes. As verificações automáticas comparavam as velocidades
+gravadas no arquivo de configuração, e não a duração real das animações dentro do jogo, por isso passavam.
+Ele só apareceu ao medir o pé de apoio para validar a animação procedural: 5,4 m/s em vez de 1,35, exatamente
+4 vezes mais. A importação dos arquivos FBX muda a cena do Blender para 120 quadros por segundo, e a exportação
+usou esse valor para converter quadros em segundos. Além da correção, foi criada uma verificação que compara a
+duração de cada animação no Godot com a calculada no Blender.</p>
+
+<h1>5. Resultados</h1>
+
+<p>A Figura 11 mostra o jogo com a animação procedural, capturado pelo roteiro automático que simula os
+comandos WASD e Shift. A Figura 12 mostra a cena automática da captura e os executáveis.</p>
+
+<figure>
+<div class="row">
+  <div class="sub"><img src="figuras/jogo_andar.png" style="width:7.6cm"><span>(a) Andando (procedural)</span></div>
+  <div class="sub"><img src="figuras/jogo_correr.png" style="width:7.6cm"><span>(b) Correndo (procedural)</span></div>
+</div>
+<figcaption><b>Figura 11.</b> O jogo: robô-bruxa no pátio da fortaleza. No alto, a pontuação e o painel com a versão de animação ativa, a velocidade e a porcentagem de cada clipe na mistura.</figcaption>
+</figure>
+
+<figure>
+<div class="row">
+  <div class="sub"><img src="figuras/mocap_show.png" style="width:5.0cm"><span>(a) Cena da captura</span></div>
+  <div class="sub"><img src="figuras/build_windows.png" style="width:5.0cm"><span>(b) Executável Windows</span></div>
+  <div class="sub"><img src="figuras/build_linux.png" style="width:5.0cm"><span>(c) Executável Linux (WSL2)</span></div>
+</div>
+<figcaption><b>Figura 12.</b> (a) A cena automática que reproduz as tomadas completas da captura da turma; (b, c) os executáveis de 64 bits rodando em cada sistema.</figcaption>
+</figure>
+
+
+<h2>5.1. E se a captura fosse usada sem tratamento?</h2>
+
+<p>Para mostrar por que o tratamento da Seção 3.2 é necessário, foi feita uma cena de comparação
+(<code style="white-space:nowrap">--raw-compare</code>, vídeo <code>demo_mocap_sem_tratamento.mp4</code>). Dois personagens andam lado a lado, na
+mesma velocidade, como um controlador de jogo os moveria, com a <b>mesma caminhada</b> da tomada
+<code>Movimentos02</code> (24,0–26,6 s). À direita, o trecho é usado exatamente como foi gravado, só posicionado no
+ponto de partida; à esquerda, é o clipe do jogo (Figura 13). Sem tratamento aparecem três problemas:</p>
+<ul>
+  <li>o deslocamento gravado na sala soma-se ao do controlador, e o personagem se afasta da sua faixa;</li>
+  <li>a direção do corpo é a da pessoa durante a gravação, não a do movimento no jogo: o personagem anda de lado;</li>
+  <li>como o trecho não começa e termina na mesma pose nem no mesmo lugar, a cada repetição (2,6 s) o personagem
+  salta de volta para a pose e a posição iniciais.</li>
+</ul>
+
+<figure>
+<img src="figuras/sem_tratamento.png" style="width:12cm">
+<figcaption><b>Figura 13.</b> A mesma caminhada da captura com tratamento (à esquerda, de frente para a câmera e na sua faixa) e sem tratamento (à direita, de lado, fora da faixa e no meio de um salto de volta ao início).</figcaption>
+</figure>
+
+<h2>5.2. Verificações, vídeos e executáveis</h2>
+
+<p>As 35 verificações automáticas (Tabela 3) passam. Foram gravados três vídeos (Tabela 4), e foram
+gerados executáveis de 64 bits para Windows e Linux, com os dados embutidos; o de Linux foi testado no Ubuntu do
+WSL2.</p>
+
+<div class="tablewrap">
+<div class="tcaption"><b>Tabela 3.</b> Verificações automáticas do jogo (<code>tests/smoke_test.gd</code>).</div>
+<table>
+<thead><tr><th>Grupo</th><th class="num">Itens</th><th>O que é verificado</th></tr></thead>
+<tbody>
+<tr><td>Clipes</td><td class="num">13</td><td>os 6 clipes das duas versões existem, repetem e têm a duração calculada no Blender; árvore de animação ativa</td></tr>
+<tr><td>Tomadas completas</td><td class="num">8</td><td>cada tomada da captura existe com a duração original</td></tr>
+<tr><td>Hierarquia</td><td class="num">3</td><td>28 ossos; <code>Hips</code> é a raiz; <code>LeftForeArm</code> é filho de <code>LeftArm</code></td></tr>
+<tr><td>Mistura</td><td class="num">2</td><td>pesos corretos em 0, na velocidade de andar e no meio do caminho, nas duas versões</td></tr>
+<tr><td>Movimento</td><td class="num">7</td><td>velocidades de andar e correr das duas versões; parada; Tab alterna as versões</td></tr>
+<tr><td>Moedas</td><td class="num">2</td><td>tocar uma moeda soma um ponto; a moeda reaparece em outro lugar</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="tablewrap">
+<div class="tcaption"><b>Tabela 4.</b> Vídeos de demonstração (pasta <code>docs/videos/</code>).</div>
+<table>
+<thead><tr><th>Arquivo</th><th>Conteúdo</th></tr></thead>
+<tbody>
+<tr><td><code>demo_wasd_animacao_procedural.mp4</code></td><td>Sessão de jogo com os comandos WASD e Shift simulados: parado, andar, curvas, correr, voltar e parar, coletando moedas</td></tr>
+<tr><td><code>demo_mocap_sequencia_completa.mp4</code></td><td>As 8 tomadas completas da captura da turma (8 min 57 s), sem controle do jogador</td></tr>
+<tr><td><code>demo_mocap_sem_tratamento.mp4</code></td><td>Curiosidade: a mesma caminhada usada sem tratamento, lado a lado com a tratada (18 s)</td></tr>
+</tbody>
+</table>
+</div>
+
+<h1>6. Declaração do uso de IA gerativa</h1>
+
+<div class="box">
+<p>Ferramentas de IA gerativa usadas, todas documentadas com prompts, sementes, parâmetros, horários e imagens
+intermediárias em <code>ia/README.md</code> e <code>ia/etapas/</code>:</p>
+<ul>
+  <li><b>Stable Diffusion 3.5 Large Turbo</b> (Hugging Face): imagem de conceito do personagem;</li>
+  <li><b>Hunyuan3D-2</b> (Hugging Face): forma 3D a partir da imagem;</li>
+  <li><b>Hunyuan3D-Paint</b> (pesos oficiais, executado localmente na RX 9070 XT): textura do personagem;</li>
+  <li><b>Claude</b> (Anthropic), assistente de programação: conduziu as etapas acima por meio de scripts e apoiou
+  o desenvolvimento do código do projeto (scripts do Blender, animação procedural, adaptação do Hunyuan3D para a
+  GPU AMD e scripts do jogo), sob orientação e revisão do grupo.</li>
+</ul>
+</div>
+
+<h1>7. Limitações</h1>
+
+<ul>
+  <li><b>Corrida capturada curta.</b> A sala limita as corridas a 2 a 3 s; o clipe tem dois ciclos, baixo e com
+  saltos, como foi gravado. A versão procedural existe também por isso.</li>
+  <li><b>Transições.</b> O <em>blend space</em> mistura clipes de durações diferentes sem sincronizar as fases da
+  passada; a transição é curta, mas não é perfeita.</li>
+  <li><b>Animação procedural.</b> Os parâmetros foram ajustados a olho, sem dados de referência, e não há
+  adaptação a terreno irregular (o chão é plano).</li>
+  <li><b>Tecido e cenário.</b> O xale e a saia se deformam como partes rígidas, sem simulação; a fortaleza é uma
+  simplificação, não uma reconstrução fiel.</li>
+</ul>
+
+<h1>8. Conclusão</h1>
+
+<p>O trabalho cumpre o enunciado com um modelo hierárquico de 28 ossos e os dois tipos de movimento pedidos,
+em duas versões: a captura real da turma, inclusive as tomadas completas em uma cena automática, e uma animação
+procedural com cinemática inversa. As decisões que mais pesaram na qualidade foram a escolha automática dos
+pontos de loop, a remoção do deslocamento com distribuição do erro e o uso, no controlador, das mesmas velocidades
+para as quais cada clipe foi feito. Olhar os resultados e medi-los, e não apenas confiar nos testes, foi o que
+revelou os erros mais sérios, como o dos clipes acelerados. Como continuação, ficam a sincronização das fases da
+passada, uma captura de corrida mais longa e a reconstrução do cenário a partir das plantas da fortaleza.</p>
+
+<h1>Referências</h1>
+<div class="refs">
+<p>Aristidou, A., Lasenby, J., Chrysanthou, Y. e Shamir, A. (2018). Inverse kinematics techniques in interactive applications: a survey. <i>Computer Graphics Forum</i>, 37(6):35–58.</p>
+<p>Baran, I. e Popović, J. (2007). Automatic rigging and animation of 3D characters. <i>ACM Transactions on Graphics</i>, 26(3), artigo 72.</p>
+<p>Esser, P. et al. (2024). Scaling rectified flow transformers for high-resolution image synthesis. Em <i>Proceedings of the 41st International Conference on Machine Learning (ICML)</i>.</p>
+<p>Kovar, L., Gleicher, M. e Pighin, F. (2002). Motion graphs. <i>ACM Transactions on Graphics</i>, 21(3):473–482.</p>
+<p>Magnenat-Thalmann, N., Laperrière, R. e Thalmann, D. (1988). Joint-dependent local deformations for hand animation and object grasping. Em <i>Proceedings of Graphics Interface '88</i>, p. 26–33.</p>
+<p>Parent, R. (2012). <i>Computer Animation: Algorithms and Techniques</i>. 3. ed. Morgan Kaufmann, Waltham.</p>
+<p>Shoemake, K. (1985). Animating rotation with quaternion curves. <i>ACM SIGGRAPH Computer Graphics</i>, 19(3):245–254.</p>
+<p>Tencent Hunyuan3D Team (2025). Hunyuan3D 2.0: Scaling diffusion models for high resolution textured 3D assets generation. arXiv:2501.12202.</p>
+<p>von Wangenheim, A. Material didático de INE5420 – Computação Gráfica (captura de movimentos, personagens em Blender, IA gerativa). LAPIX/UFSC. Disponível em: https://lapix.ufsc.br/ensino/computacao-grafica/.</p>
+</div>
+
+</body>
+</html>
