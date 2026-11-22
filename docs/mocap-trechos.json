@@ -1,0 +1,6390 @@
+[
+ {
+  "file": "Movimentos01.fbx",
+  "ground": -0.007,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.14,
+    "flight": 0,
+    "bounce": 0.019
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.85,
+    "flight": 0,
+    "bounce": 0.038
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 0.56,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 2.0,
+    "flight": 5,
+    "bounce": 0.198
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 1.14,
+    "flight": 17,
+    "bounce": 0.757
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.83,
+    "flight": 0,
+    "bounce": 0.212
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 1.41,
+    "flight": 2,
+    "bounce": 0.407
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 1.37,
+    "flight": 1,
+    "bounce": 0.396
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 1.25,
+    "flight": 1,
+    "bounce": 0.294
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 1.3,
+    "flight": 0,
+    "bounce": 0.52
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.84,
+    "flight": 0,
+    "bounce": 0.49
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 0.45,
+    "flight": 15,
+    "bounce": 0.595
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 1.44,
+    "flight": 0,
+    "bounce": 0.246
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 1.16,
+    "flight": 11,
+    "bounce": 0.594
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 1.11,
+    "flight": 6,
+    "bounce": 0.506
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 1.37,
+    "flight": 5,
+    "bounce": 0.493
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 0.29,
+    "flight": 10,
+    "bounce": 0.422
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 0.39,
+    "flight": 0,
+    "bounce": 0.071
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 1.3,
+    "flight": 2,
+    "bounce": 0.132
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 1.06,
+    "flight": 14,
+    "bounce": 0.701
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 0.28,
+    "flight": 3,
+    "bounce": 0.401
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 1.84,
+    "flight": 2,
+    "bounce": 0.178
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.78,
+    "flight": 15,
+    "bounce": 0.665
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 1.05,
+    "flight": 0,
+    "bounce": 0.137
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 1.43,
+    "flight": 9,
+    "bounce": 0.666
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.28,
+    "flight": 9,
+    "bounce": 0.547
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 1.0,
+    "flight": 0,
+    "bounce": 0.092
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.74,
+    "flight": 0,
+    "bounce": 0.134
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.55,
+    "flight": 0,
+    "bounce": 0.476
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.463
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.5,
+    "flight": 0,
+    "bounce": 0.427
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 0.22,
+    "flight": 0,
+    "bounce": 0.415
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.065
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 0.75,
+    "flight": 0,
+    "bounce": 0.058
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 0.54,
+    "flight": 0,
+    "bounce": 0.036
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 0.31,
+    "flight": 0,
+    "bounce": 0.036
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.038
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.063
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 1.49,
+    "flight": 10,
+    "bounce": 0.706
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 1.26,
+    "flight": 8,
+    "bounce": 0.179
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 0.16,
+    "flight": 0,
+    "bounce": 0.378
+   },
+   {
+    "t": 43.0,
+    "frame": 5162,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.013
+   },
+   {
+    "t": 44.0,
+    "frame": 5282,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.004
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 2.0,
+    "start_frame": 2,
+    "end_frame": 242,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.08,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 2.0,
+    "end_s": 4.0,
+    "start_frame": 242,
+    "end_frame": 482,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.71,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 4.0,
+    "end_s": 5.0,
+    "start_frame": 482,
+    "end_frame": 602,
+    "flights": [
+     5
+    ],
+    "mean_speed": 2.0,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 5.0,
+    "end_s": 16.0,
+    "start_frame": 602,
+    "end_frame": 1922,
+    "flights": [
+     17,
+     0,
+     2,
+     1,
+     1,
+     0,
+     0,
+     15,
+     0,
+     11,
+     6
+    ],
+    "mean_speed": 1.12,
+    "dur_s": 11.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 16.0,
+    "end_s": 17.0,
+    "start_frame": 1922,
+    "end_frame": 2042,
+    "flights": [
+     5
+    ],
+    "mean_speed": 1.37,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 17.0,
+    "end_s": 20.0,
+    "start_frame": 2042,
+    "end_frame": 2402,
+    "flights": [
+     10,
+     0,
+     0
+    ],
+    "mean_speed": 0.3,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 20.0,
+    "end_s": 22.0,
+    "start_frame": 2402,
+    "end_frame": 2642,
+    "flights": [
+     2,
+     14
+    ],
+    "mean_speed": 1.18,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 22.0,
+    "end_s": 23.0,
+    "start_frame": 2642,
+    "end_frame": 2762,
+    "flights": [
+     3
+    ],
+    "mean_speed": 0.28,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 23.0,
+    "end_s": 26.0,
+    "start_frame": 2762,
+    "end_frame": 3122,
+    "flights": [
+     2,
+     15,
+     0
+    ],
+    "mean_speed": 1.22,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 26.0,
+    "end_s": 27.0,
+    "start_frame": 3122,
+    "end_frame": 3242,
+    "flights": [
+     9
+    ],
+    "mean_speed": 1.43,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 27.0,
+    "end_s": 28.0,
+    "start_frame": 3242,
+    "end_frame": 3362,
+    "flights": [
+     9
+    ],
+    "mean_speed": 0.28,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 28.0,
+    "end_s": 31.0,
+    "start_frame": 3362,
+    "end_frame": 3722,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.76,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 31.0,
+    "end_s": 32.0,
+    "start_frame": 3722,
+    "end_frame": 3842,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.21,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 32.0,
+    "end_s": 33.0,
+    "start_frame": 3842,
+    "end_frame": 3962,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.5,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 33.0,
+    "end_s": 34.0,
+    "start_frame": 3962,
+    "end_frame": 4082,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.22,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 34.0,
+    "end_s": 37.0,
+    "start_frame": 4082,
+    "end_frame": 4442,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.6,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 37.0,
+    "end_s": 40.0,
+    "start_frame": 4442,
+    "end_frame": 4802,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 40.0,
+    "end_s": 41.0,
+    "start_frame": 4802,
+    "end_frame": 4922,
+    "flights": [
+     10
+    ],
+    "mean_speed": 1.49,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 41.0,
+    "end_s": 42.0,
+    "start_frame": 4922,
+    "end_frame": 5042,
+    "flights": [
+     8
+    ],
+    "mean_speed": 1.26,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 42.0,
+    "end_s": 45.0,
+    "start_frame": 5042,
+    "end_frame": 5402,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.09,
+    "dur_s": 3.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos02.fbx",
+  "ground": 0.008,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.005
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.54,
+    "flight": 0,
+    "bounce": 0.034
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.037
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.06
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 1.77,
+    "flight": 1,
+    "bounce": 0.144
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 0.87,
+    "flight": 15,
+    "bounce": 0.551
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.43,
+    "flight": 0,
+    "bounce": 0.061
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 0.7,
+    "flight": 0,
+    "bounce": 0.057
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.037
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 0.37,
+    "flight": 0,
+    "bounce": 0.064
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 1.83,
+    "flight": 3,
+    "bounce": 0.161
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 1.33,
+    "flight": 16,
+    "bounce": 0.718
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.268
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 0.26,
+    "flight": 0,
+    "bounce": 0.027
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 0.15,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.093
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 1.18,
+    "flight": 0,
+    "bounce": 0.294
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 0.69,
+    "flight": 0,
+    "bounce": 0.348
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.61,
+    "flight": 0,
+    "bounce": 0.154
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 1.51,
+    "flight": 0,
+    "bounce": 0.4
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.77,
+    "flight": 0,
+    "bounce": 0.479
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.74,
+    "flight": 0,
+    "bounce": 0.229
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 1.15,
+    "flight": 0,
+    "bounce": 0.211
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.64,
+    "flight": 0,
+    "bounce": 0.081
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 0.96,
+    "flight": 0,
+    "bounce": 0.094
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 0.61,
+    "flight": 0,
+    "bounce": 0.263
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 1.92,
+    "flight": 0,
+    "bounce": 0.23
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 1.04,
+    "flight": 0,
+    "bounce": 0.193
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 2.1,
+    "flight": 0,
+    "bounce": 0.232
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 0.99,
+    "flight": 0,
+    "bounce": 0.303
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 0.5,
+    "flight": 0,
+    "bounce": 0.222
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 0.8,
+    "flight": 0,
+    "bounce": 0.067
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 0.54,
+    "flight": 0,
+    "bounce": 0.106
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 2.57,
+    "flight": 5,
+    "bounce": 0.155
+   },
+   {
+    "t": 43.0,
+    "frame": 5162,
+    "speed": 1.69,
+    "flight": 2,
+    "bounce": 0.157
+   },
+   {
+    "t": 44.0,
+    "frame": 5282,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.047
+   },
+   {
+    "t": 45.0,
+    "frame": 5402,
+    "speed": 0.36,
+    "flight": 0,
+    "bounce": 0.021
+   },
+   {
+    "t": 46.0,
+    "frame": 5522,
+    "speed": 0.87,
+    "flight": 0,
+    "bounce": 0.047
+   },
+   {
+    "t": 47.0,
+    "frame": 5642,
+    "speed": 0.88,
+    "flight": 0,
+    "bounce": 0.043
+   },
+   {
+    "t": 48.0,
+    "frame": 5762,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.031
+   },
+   {
+    "t": 49.0,
+    "frame": 5882,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 50.0,
+    "frame": 6002,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 51.0,
+    "frame": 6122,
+    "speed": 0.27,
+    "flight": 0,
+    "bounce": 0.045
+   },
+   {
+    "t": 52.0,
+    "frame": 6242,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.019
+   },
+   {
+    "t": 53.0,
+    "frame": 6362,
+    "speed": 0.28,
+    "flight": 0,
+    "bounce": 0.013
+   },
+   {
+    "t": 54.0,
+    "frame": 6482,
+    "speed": 0.12,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 55.0,
+    "frame": 6602,
+    "speed": 0.57,
+    "flight": 0,
+    "bounce": 0.034
+   },
+   {
+    "t": 56.0,
+    "frame": 6722,
+    "speed": 0.99,
+    "flight": 0,
+    "bounce": 0.043
+   },
+   {
+    "t": 57.0,
+    "frame": 6842,
+    "speed": 1.0,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 58.0,
+    "frame": 6962,
+    "speed": 0.92,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 59.0,
+    "frame": 7082,
+    "speed": 0.38,
+    "flight": 0,
+    "bounce": 0.052
+   },
+   {
+    "t": 60.0,
+    "frame": 7202,
+    "speed": 0.72,
+    "flight": 0,
+    "bounce": 0.05
+   },
+   {
+    "t": 61.0,
+    "frame": 7322,
+    "speed": 1.01,
+    "flight": 0,
+    "bounce": 0.049
+   },
+   {
+    "t": 62.0,
+    "frame": 7442,
+    "speed": 1.0,
+    "flight": 0,
+    "bounce": 0.037
+   },
+   {
+    "t": 63.0,
+    "frame": 7562,
+    "speed": 0.93,
+    "flight": 0,
+    "bounce": 0.039
+   },
+   {
+    "t": 64.0,
+    "frame": 7682,
+    "speed": 0.73,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 65.0,
+    "frame": 7802,
+    "speed": 0.57,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 66.0,
+    "frame": 7922,
+    "speed": 0.27,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 67.0,
+    "frame": 8042,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.025
+   },
+   {
+    "t": 68.0,
+    "frame": 8162,
+    "speed": 0.68,
+    "flight": 0,
+    "bounce": 0.039
+   },
+   {
+    "t": 69.0,
+    "frame": 8282,
+    "speed": 0.99,
+    "flight": 0,
+    "bounce": 0.051
+   },
+   {
+    "t": 70.0,
+    "frame": 8402,
+    "speed": 0.98,
+    "flight": 0,
+    "bounce": 0.031
+   },
+   {
+    "t": 71.0,
+    "frame": 8522,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.047
+   },
+   {
+    "t": 72.0,
+    "frame": 8642,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.011
+   },
+   {
+    "t": 73.0,
+    "frame": 8762,
+    "speed": 0.56,
+    "flight": 0,
+    "bounce": 0.049
+   },
+   {
+    "t": 74.0,
+    "frame": 8882,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.038
+   },
+   {
+    "t": 75.0,
+    "frame": 9002,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 76.0,
+    "frame": 9122,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 77.0,
+    "frame": 9242,
+    "speed": 0.09,
+    "flight": 0,
+    "bounce": 0.041
+   },
+   {
+    "t": 78.0,
+    "frame": 9362,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 79.0,
+    "frame": 9482,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 80.0,
+    "frame": 9602,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 81.0,
+    "frame": 9722,
+    "speed": 0.1,
+    "flight": 0,
+    "bounce": 0.029
+   },
+   {
+    "t": 82.0,
+    "frame": 9842,
+    "speed": 0.45,
+    "flight": 0,
+    "bounce": 0.157
+   },
+   {
+    "t": 83.0,
+    "frame": 9962,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.192
+   },
+   {
+    "t": 84.0,
+    "frame": 10082,
+    "speed": 0.11,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 85.0,
+    "frame": 10202,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 86.0,
+    "frame": 10322,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.031
+   },
+   {
+    "t": 87.0,
+    "frame": 10442,
+    "speed": 0.53,
+    "flight": 0,
+    "bounce": 0.032
+   },
+   {
+    "t": 88.0,
+    "frame": 10562,
+    "speed": 0.26,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 89.0,
+    "frame": 10682,
+    "speed": 0.13,
+    "flight": 0,
+    "bounce": 0.01
+   },
+   {
+    "t": 90.0,
+    "frame": 10802,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 91.0,
+    "frame": 10922,
+    "speed": 0.39,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 92.0,
+    "frame": 11042,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 93.0,
+    "frame": 11162,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.012
+   },
+   {
+    "t": 94.0,
+    "frame": 11282,
+    "speed": 0.3,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 95.0,
+    "frame": 11402,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.014
+   },
+   {
+    "t": 96.0,
+    "frame": 11522,
+    "speed": 0.42,
+    "flight": 0,
+    "bounce": 0.023
+   },
+   {
+    "t": 97.0,
+    "frame": 11642,
+    "speed": 0.53,
+    "flight": 0,
+    "bounce": 0.035
+   },
+   {
+    "t": 98.0,
+    "frame": 11762,
+    "speed": 0.27,
+    "flight": 0,
+    "bounce": 0.036
+   },
+   {
+    "t": 99.0,
+    "frame": 11882,
+    "speed": 0.22,
+    "flight": 0,
+    "bounce": 0.022
+   },
+   {
+    "t": 100.0,
+    "frame": 12002,
+    "speed": 0.27,
+    "flight": 0,
+    "bounce": 0.048
+   },
+   {
+    "t": 101.0,
+    "frame": 12122,
+    "speed": 1.03,
+    "flight": 1,
+    "bounce": 0.182
+   },
+   {
+    "t": 102.0,
+    "frame": 12242,
+    "speed": 0.83,
+    "flight": 16,
+    "bounce": 0.663
+   },
+   {
+    "t": 103.0,
+    "frame": 12362,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.287
+   },
+   {
+    "t": 104.0,
+    "frame": 12482,
+    "speed": 0.43,
+    "flight": 0,
+    "bounce": 0.229
+   },
+   {
+    "t": 105.0,
+    "frame": 12602,
+    "speed": 0.57,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 106.0,
+    "frame": 12722,
+    "speed": 0.43,
+    "flight": 0,
+    "bounce": 0.031
+   },
+   {
+    "t": 107.0,
+    "frame": 12842,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.013
+   },
+   {
+    "t": 108.0,
+    "frame": 12962,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 109.0,
+    "frame": 13082,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.018
+   },
+   {
+    "t": 110.0,
+    "frame": 13202,
+    "speed": 0.16,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 111.0,
+    "frame": 13322,
+    "speed": 0.28,
+    "flight": 0,
+    "bounce": 0.087
+   },
+   {
+    "t": 112.0,
+    "frame": 13442,
+    "speed": 0.33,
+    "flight": 0,
+    "bounce": 0.094
+   },
+   {
+    "t": 113.0,
+    "frame": 13562,
+    "speed": 0.11,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 114.0,
+    "frame": 13682,
+    "speed": 0.25,
+    "flight": 0,
+    "bounce": 0.033
+   },
+   {
+    "t": 115.0,
+    "frame": 13802,
+    "speed": 0.3,
+    "flight": 0,
+    "bounce": 0.044
+   },
+   {
+    "t": 116.0,
+    "frame": 13922,
+    "speed": 0.24,
+    "flight": 0,
+    "bounce": 0.032
+   },
+   {
+    "t": 117.0,
+    "frame": 14042,
+    "speed": 0.97,
+    "flight": 0,
+    "bounce": 0.068
+   },
+   {
+    "t": 118.0,
+    "frame": 14162,
+    "speed": 0.82,
+    "flight": 0,
+    "bounce": 0.053
+   },
+   {
+    "t": 119.0,
+    "frame": 14282,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 120.0,
+    "frame": 14402,
+    "speed": 0.11,
+    "flight": 0,
+    "bounce": 0.005
+   },
+   {
+    "t": 121.0,
+    "frame": 14522,
+    "speed": 0.09,
+    "flight": 0,
+    "bounce": 0.012
+   },
+   {
+    "t": 122.0,
+    "frame": 14642,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.027
+   },
+   {
+    "t": 123.0,
+    "frame": 14762,
+    "speed": 0.32,
+    "flight": 0,
+    "bounce": 0.024
+   },
+   {
+    "t": 124.0,
+    "frame": 14882,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 125.0,
+    "frame": 15002,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 126.0,
+    "frame": 15122,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 127.0,
+    "frame": 15242,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.005
+   },
+   {
+    "t": 128.0,
+    "frame": 15362,
+    "speed": 0.32,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 129.0,
+    "frame": 15482,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 130.0,
+    "frame": 15602,
+    "speed": 0.74,
+    "flight": 0,
+    "bounce": 0.047
+   },
+   {
+    "t": 131.0,
+    "frame": 15722,
+    "speed": 0.65,
+    "flight": 0,
+    "bounce": 0.038
+   },
+   {
+    "t": 132.0,
+    "frame": 15842,
+    "speed": 0.36,
+    "flight": 0,
+    "bounce": 0.036
+   },
+   {
+    "t": 133.0,
+    "frame": 15962,
+    "speed": 0.1,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 134.0,
+    "frame": 16082,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 135.0,
+    "frame": 16202,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 136.0,
+    "frame": 16322,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 137.0,
+    "frame": 16442,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 138.0,
+    "frame": 16562,
+    "speed": 0.42,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 139.0,
+    "frame": 16682,
+    "speed": 0.63,
+    "flight": 0,
+    "bounce": 0.025
+   },
+   {
+    "t": 140.0,
+    "frame": 16802,
+    "speed": 0.64,
+    "flight": 0,
+    "bounce": 0.034
+   },
+   {
+    "t": 141.0,
+    "frame": 16922,
+    "speed": 0.53,
+    "flight": 0,
+    "bounce": 0.019
+   },
+   {
+    "t": 142.0,
+    "frame": 17042,
+    "speed": 0.16,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 143.0,
+    "frame": 17162,
+    "speed": 0.07,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 144.0,
+    "frame": 17282,
+    "speed": 0.39,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 145.0,
+    "frame": 17402,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.015
+   },
+   {
+    "t": 146.0,
+    "frame": 17522,
+    "speed": 0.37,
+    "flight": 0,
+    "bounce": 0.012
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 1.0,
+    "start_frame": 2,
+    "end_frame": 122,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.06,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 1.0,
+    "end_s": 3.0,
+    "start_frame": 122,
+    "end_frame": 362,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.58,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 3.0,
+    "end_s": 4.0,
+    "start_frame": 362,
+    "end_frame": 482,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.29,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 4.0,
+    "end_s": 9.0,
+    "start_frame": 482,
+    "end_frame": 1082,
+    "flights": [
+     1,
+     15,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.86,
+    "dur_s": 5.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 9.0,
+    "end_s": 10.0,
+    "start_frame": 1082,
+    "end_frame": 1202,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.37,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 10.0,
+    "end_s": 12.0,
+    "start_frame": 1202,
+    "end_frame": 1442,
+    "flights": [
+     3,
+     16
+    ],
+    "mean_speed": 1.58,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 12.0,
+    "end_s": 14.0,
+    "start_frame": 1442,
+    "end_frame": 1682,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.43,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 14.0,
+    "end_s": 24.0,
+    "start_frame": 1682,
+    "end_frame": 2882,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.07,
+    "dur_s": 10.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 24.0,
+    "end_s": 42.0,
+    "start_frame": 2882,
+    "end_frame": 5042,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.96,
+    "dur_s": 18.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 42.0,
+    "end_s": 43.0,
+    "start_frame": 5042,
+    "end_frame": 5162,
+    "flights": [
+     5
+    ],
+    "mean_speed": 2.57,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 43.0,
+    "end_s": 45.0,
+    "start_frame": 5162,
+    "end_frame": 5402,
+    "flights": [
+     2,
+     0
+    ],
+    "mean_speed": 1.04,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 45.0,
+    "end_s": 46.0,
+    "start_frame": 5402,
+    "end_frame": 5522,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.36,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 46.0,
+    "end_s": 48.0,
+    "start_frame": 5522,
+    "end_frame": 5762,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.88,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 48.0,
+    "end_s": 52.0,
+    "start_frame": 5762,
+    "end_frame": 6242,
+    "flights": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.15,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 52.0,
+    "end_s": 53.0,
+    "start_frame": 6242,
+    "end_frame": 6362,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.44,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 53.0,
+    "end_s": 55.0,
+    "start_frame": 6362,
+    "end_frame": 6602,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.2,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 55.0,
+    "end_s": 59.0,
+    "start_frame": 6602,
+    "end_frame": 7082,
+    "flights": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.87,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 59.0,
+    "end_s": 60.0,
+    "start_frame": 7082,
+    "end_frame": 7202,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.38,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 60.0,
+    "end_s": 66.0,
+    "start_frame": 7202,
+    "end_frame": 7922,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.83,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 66.0,
+    "end_s": 67.0,
+    "start_frame": 7922,
+    "end_frame": 8042,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.27,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 67.0,
+    "end_s": 74.0,
+    "start_frame": 8042,
+    "end_frame": 8882,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.67,
+    "dur_s": 7.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 74.0,
+    "end_s": 82.0,
+    "start_frame": 8882,
+    "end_frame": 9842,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.07,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 82.0,
+    "end_s": 84.0,
+    "start_frame": 9842,
+    "end_frame": 10082,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.46,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 84.0,
+    "end_s": 87.0,
+    "start_frame": 10082,
+    "end_frame": 10442,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.17,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 87.0,
+    "end_s": 88.0,
+    "start_frame": 10442,
+    "end_frame": 10562,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.53,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 88.0,
+    "end_s": 96.0,
+    "start_frame": 10562,
+    "end_frame": 11522,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 96.0,
+    "end_s": 98.0,
+    "start_frame": 11522,
+    "end_frame": 11762,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.47,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 98.0,
+    "end_s": 101.0,
+    "start_frame": 11762,
+    "end_frame": 12122,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.25,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 101.0,
+    "end_s": 107.0,
+    "start_frame": 12122,
+    "end_frame": 12842,
+    "flights": [
+     1,
+     16,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.62,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 107.0,
+    "end_s": 117.0,
+    "start_frame": 12842,
+    "end_frame": 14042,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 10.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 117.0,
+    "end_s": 119.0,
+    "start_frame": 14042,
+    "end_frame": 14282,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.9,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 119.0,
+    "end_s": 122.0,
+    "start_frame": 14282,
+    "end_frame": 14642,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.12,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 122.0,
+    "end_s": 123.0,
+    "start_frame": 14642,
+    "end_frame": 14762,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.47,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 123.0,
+    "end_s": 129.0,
+    "start_frame": 14762,
+    "end_frame": 15482,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.14,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 129.0,
+    "end_s": 132.0,
+    "start_frame": 15482,
+    "end_frame": 15842,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.62,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 132.0,
+    "end_s": 138.0,
+    "start_frame": 15842,
+    "end_frame": 16562,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.11,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 138.0,
+    "end_s": 142.0,
+    "start_frame": 16562,
+    "end_frame": 17042,
+    "flights": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.56,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 142.0,
+    "end_s": 147.0,
+    "start_frame": 17042,
+    "end_frame": 17642,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.27,
+    "dur_s": 5.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos03.fbx",
+  "ground": -0.038,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.0
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.044
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 1.17,
+    "flight": 5,
+    "bounce": 0.18
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 1.14,
+    "flight": 1,
+    "bounce": 0.291
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 1.87,
+    "flight": 7,
+    "bounce": 0.359
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 0.75,
+    "flight": 7,
+    "bounce": 0.396
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 1.68,
+    "flight": 8,
+    "bounce": 0.236
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 1.05,
+    "flight": 22,
+    "bounce": 0.727
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 1.68,
+    "flight": 20,
+    "bounce": 0.37
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 1.77,
+    "flight": 15,
+    "bounce": 0.24
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 2.03,
+    "flight": 16,
+    "bounce": 0.25
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.58,
+    "flight": 11,
+    "bounce": 0.065
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.039
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.039
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.039
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 0.27,
+    "flight": 5,
+    "bounce": 0.039
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 2.0,
+    "start_frame": 2,
+    "end_frame": 242,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.15,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 2.0,
+    "end_s": 4.0,
+    "start_frame": 242,
+    "end_frame": 482,
+    "flights": [
+     5,
+     1
+    ],
+    "mean_speed": 1.15,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 4.0,
+    "end_s": 5.0,
+    "start_frame": 482,
+    "end_frame": 602,
+    "flights": [
+     7
+    ],
+    "mean_speed": 1.87,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 5.0,
+    "end_s": 6.0,
+    "start_frame": 602,
+    "end_frame": 722,
+    "flights": [
+     7
+    ],
+    "mean_speed": 0.75,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 6.0,
+    "end_s": 7.0,
+    "start_frame": 722,
+    "end_frame": 842,
+    "flights": [
+     8
+    ],
+    "mean_speed": 1.68,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 7.0,
+    "end_s": 8.0,
+    "start_frame": 842,
+    "end_frame": 962,
+    "flights": [
+     22
+    ],
+    "mean_speed": 1.05,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 8.0,
+    "end_s": 11.0,
+    "start_frame": 962,
+    "end_frame": 1322,
+    "flights": [
+     20,
+     15,
+     16
+    ],
+    "mean_speed": 1.83,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 11.0,
+    "end_s": 12.0,
+    "start_frame": 1322,
+    "end_frame": 1442,
+    "flights": [
+     11
+    ],
+    "mean_speed": 0.58,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 12.0,
+    "end_s": 16.0,
+    "start_frame": 1442,
+    "end_frame": 1922,
+    "flights": [
+     0,
+     0,
+     0,
+     5
+    ],
+    "mean_speed": 0.2,
+    "dur_s": 4.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos04.fbx",
+  "ground": -0.015,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.08,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.6,
+    "flight": 0,
+    "bounce": 0.043
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.228
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 1.92,
+    "flight": 3,
+    "bounce": 0.371
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 1.51,
+    "flight": 4,
+    "bounce": 0.398
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 1.15,
+    "flight": 0,
+    "bounce": 0.269
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.96,
+    "flight": 0,
+    "bounce": 0.434
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 0.61,
+    "flight": 0,
+    "bounce": 0.439
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 0.56,
+    "flight": 0,
+    "bounce": 0.403
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 1.01,
+    "flight": 0,
+    "bounce": 0.156
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 1.96,
+    "flight": 11,
+    "bounce": 0.704
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.43,
+    "flight": 10,
+    "bounce": 0.661
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 1.8,
+    "flight": 4,
+    "bounce": 0.108
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 1.2,
+    "flight": 16,
+    "bounce": 0.685
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 0.7,
+    "flight": 1,
+    "bounce": 0.281
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 2.32,
+    "flight": 4,
+    "bounce": 0.213
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 0.58,
+    "flight": 1,
+    "bounce": 0.157
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 1.82,
+    "flight": 5,
+    "bounce": 0.196
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 1.36,
+    "flight": 18,
+    "bounce": 0.641
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 0.41,
+    "flight": 2,
+    "bounce": 0.345
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 1.03,
+    "flight": 0,
+    "bounce": 0.203
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 0.44,
+    "flight": 13,
+    "bounce": 0.579
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 0.96,
+    "flight": 0,
+    "bounce": 0.083
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 1.24,
+    "flight": 13,
+    "bounce": 0.622
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.3,
+    "flight": 6,
+    "bounce": 0.457
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 1.98,
+    "flight": 2,
+    "bounce": 0.101
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 1.03,
+    "flight": 14,
+    "bounce": 0.658
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.79,
+    "flight": 2,
+    "bounce": 0.412
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 1.98,
+    "flight": 3,
+    "bounce": 0.146
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.54,
+    "flight": 18,
+    "bounce": 0.543
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.36,
+    "flight": 0,
+    "bounce": 0.154
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 1.18,
+    "flight": 2,
+    "bounce": 0.298
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.66,
+    "flight": 0,
+    "bounce": 0.139
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 0.5,
+    "flight": 2,
+    "bounce": 0.22
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 1.91,
+    "flight": 13,
+    "bounce": 0.618
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 1.05,
+    "flight": 5,
+    "bounce": 0.32
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 0.38,
+    "flight": 2,
+    "bounce": 0.25
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 0.37,
+    "flight": 0,
+    "bounce": 0.128
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 0.24,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 43.0,
+    "frame": 5162,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.002
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 1.0,
+    "start_frame": 2,
+    "end_frame": 122,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.08,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 1.0,
+    "end_s": 3.0,
+    "start_frame": 122,
+    "end_frame": 362,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.55,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 3.0,
+    "end_s": 5.0,
+    "start_frame": 362,
+    "end_frame": 602,
+    "flights": [
+     3,
+     4
+    ],
+    "mean_speed": 1.71,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 5.0,
+    "end_s": 10.0,
+    "start_frame": 602,
+    "end_frame": 1202,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.86,
+    "dur_s": 5.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 10.0,
+    "end_s": 11.0,
+    "start_frame": 1202,
+    "end_frame": 1322,
+    "flights": [
+     11
+    ],
+    "mean_speed": 1.96,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 11.0,
+    "end_s": 12.0,
+    "start_frame": 1322,
+    "end_frame": 1442,
+    "flights": [
+     10
+    ],
+    "mean_speed": 0.43,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 12.0,
+    "end_s": 13.0,
+    "start_frame": 1442,
+    "end_frame": 1562,
+    "flights": [
+     4
+    ],
+    "mean_speed": 1.8,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 13.0,
+    "end_s": 15.0,
+    "start_frame": 1562,
+    "end_frame": 1802,
+    "flights": [
+     16,
+     1
+    ],
+    "mean_speed": 0.95,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 15.0,
+    "end_s": 16.0,
+    "start_frame": 1802,
+    "end_frame": 1922,
+    "flights": [
+     4
+    ],
+    "mean_speed": 2.32,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 16.0,
+    "end_s": 17.0,
+    "start_frame": 1922,
+    "end_frame": 2042,
+    "flights": [
+     1
+    ],
+    "mean_speed": 0.58,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 17.0,
+    "end_s": 19.0,
+    "start_frame": 2042,
+    "end_frame": 2282,
+    "flights": [
+     5,
+     18
+    ],
+    "mean_speed": 1.59,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 19.0,
+    "end_s": 24.0,
+    "start_frame": 2282,
+    "end_frame": 2882,
+    "flights": [
+     2,
+     0,
+     13,
+     0,
+     13
+    ],
+    "mean_speed": 0.82,
+    "dur_s": 5.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 24.0,
+    "end_s": 25.0,
+    "start_frame": 2882,
+    "end_frame": 3002,
+    "flights": [
+     6
+    ],
+    "mean_speed": 0.3,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 25.0,
+    "end_s": 28.0,
+    "start_frame": 3002,
+    "end_frame": 3362,
+    "flights": [
+     2,
+     14,
+     2
+    ],
+    "mean_speed": 1.27,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 28.0,
+    "end_s": 29.0,
+    "start_frame": 3362,
+    "end_frame": 3482,
+    "flights": [
+     3
+    ],
+    "mean_speed": 1.98,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 29.0,
+    "end_s": 30.0,
+    "start_frame": 3482,
+    "end_frame": 3602,
+    "flights": [
+     18
+    ],
+    "mean_speed": 0.54,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 30.0,
+    "end_s": 31.0,
+    "start_frame": 3602,
+    "end_frame": 3722,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.36,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 31.0,
+    "end_s": 34.0,
+    "start_frame": 3722,
+    "end_frame": 4082,
+    "flights": [
+     2,
+     0,
+     2
+    ],
+    "mean_speed": 0.78,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 34.0,
+    "end_s": 35.0,
+    "start_frame": 4082,
+    "end_frame": 4202,
+    "flights": [
+     13
+    ],
+    "mean_speed": 1.91,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 35.0,
+    "end_s": 36.0,
+    "start_frame": 4202,
+    "end_frame": 4322,
+    "flights": [
+     5
+    ],
+    "mean_speed": 1.05,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 36.0,
+    "end_s": 44.0,
+    "start_frame": 4322,
+    "end_frame": 5282,
+    "flights": [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.15,
+    "dur_s": 8.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos05.fbx",
+  "ground": 0.001,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.05
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.38,
+    "flight": 0,
+    "bounce": 0.104
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 1.88,
+    "flight": 3,
+    "bounce": 0.148
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 0.99,
+    "flight": 15,
+    "bounce": 0.634
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.088
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 0.87,
+    "flight": 0,
+    "bounce": 0.16
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.81,
+    "flight": 0,
+    "bounce": 0.208
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 1.05,
+    "flight": 0,
+    "bounce": 0.221
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 0.95,
+    "flight": 0,
+    "bounce": 0.202
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 1.61,
+    "flight": 0,
+    "bounce": 0.276
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 0.67,
+    "flight": 0,
+    "bounce": 0.259
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 1.67,
+    "flight": 6,
+    "bounce": 0.787
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 1.43,
+    "flight": 5,
+    "bounce": 0.349
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 0.47,
+    "flight": 2,
+    "bounce": 0.259
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 0.94,
+    "flight": 0,
+    "bounce": 0.173
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 0.46,
+    "flight": 0,
+    "bounce": 0.175
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.108
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 1.59,
+    "flight": 5,
+    "bounce": 0.692
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 1.25,
+    "flight": 7,
+    "bounce": 0.179
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.29,
+    "flight": 2,
+    "bounce": 0.486
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.041
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 1.92,
+    "flight": 0,
+    "bounce": 0.58
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.199
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 0.18,
+    "flight": 2,
+    "bounce": 0.512
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.42,
+    "flight": 0,
+    "bounce": 0.258
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.69,
+    "flight": 0,
+    "bounce": 0.097
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 0.31,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.034
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 0.28,
+    "flight": 0,
+    "bounce": 0.021
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 0.69,
+    "flight": 8,
+    "bounce": 0.604
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 0.16,
+    "flight": 7,
+    "bounce": 0.527
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.058
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 1.11,
+    "flight": 0,
+    "bounce": 0.063
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 0.83,
+    "flight": 0,
+    "bounce": 0.13
+   },
+   {
+    "t": 43.0,
+    "frame": 5162,
+    "speed": 1.83,
+    "flight": 0,
+    "bounce": 0.141
+   },
+   {
+    "t": 44.0,
+    "frame": 5282,
+    "speed": 0.26,
+    "flight": 13,
+    "bounce": 0.501
+   },
+   {
+    "t": 45.0,
+    "frame": 5402,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.073
+   },
+   {
+    "t": 46.0,
+    "frame": 5522,
+    "speed": 0.47,
+    "flight": 14,
+    "bounce": 0.636
+   },
+   {
+    "t": 47.0,
+    "frame": 5642,
+    "speed": 0.24,
+    "flight": 0,
+    "bounce": 0.161
+   },
+   {
+    "t": 48.0,
+    "frame": 5762,
+    "speed": 0.3,
+    "flight": 14,
+    "bounce": 0.618
+   },
+   {
+    "t": 49.0,
+    "frame": 5882,
+    "speed": 0.64,
+    "flight": 0,
+    "bounce": 0.086
+   },
+   {
+    "t": 50.0,
+    "frame": 6002,
+    "speed": 0.49,
+    "flight": 0,
+    "bounce": 0.031
+   },
+   {
+    "t": 51.0,
+    "frame": 6122,
+    "speed": 0.68,
+    "flight": 0,
+    "bounce": 0.073
+   },
+   {
+    "t": 52.0,
+    "frame": 6242,
+    "speed": 0.79,
+    "flight": 0,
+    "bounce": 0.062
+   },
+   {
+    "t": 53.0,
+    "frame": 6362,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.094
+   },
+   {
+    "t": 54.0,
+    "frame": 6482,
+    "speed": 1.86,
+    "flight": 1,
+    "bounce": 0.13
+   },
+   {
+    "t": 55.0,
+    "frame": 6602,
+    "speed": 1.0,
+    "flight": 7,
+    "bounce": 0.698
+   },
+   {
+    "t": 56.0,
+    "frame": 6722,
+    "speed": 0.22,
+    "flight": 9,
+    "bounce": 0.608
+   },
+   {
+    "t": 57.0,
+    "frame": 6842,
+    "speed": 1.41,
+    "flight": 0,
+    "bounce": 0.107
+   },
+   {
+    "t": 58.0,
+    "frame": 6962,
+    "speed": 1.32,
+    "flight": 1,
+    "bounce": 0.192
+   },
+   {
+    "t": 59.0,
+    "frame": 7082,
+    "speed": 0.32,
+    "flight": 0,
+    "bounce": 0.271
+   },
+   {
+    "t": 60.0,
+    "frame": 7202,
+    "speed": 1.65,
+    "flight": 2,
+    "bounce": 0.168
+   },
+   {
+    "t": 61.0,
+    "frame": 7322,
+    "speed": 1.15,
+    "flight": 8,
+    "bounce": 0.713
+   },
+   {
+    "t": 62.0,
+    "frame": 7442,
+    "speed": 0.3,
+    "flight": 9,
+    "bounce": 0.619
+   },
+   {
+    "t": 63.0,
+    "frame": 7562,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 64.0,
+    "frame": 7682,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.024
+   },
+   {
+    "t": 65.0,
+    "frame": 7802,
+    "speed": 0.61,
+    "flight": 0,
+    "bounce": 0.063
+   },
+   {
+    "t": 66.0,
+    "frame": 7922,
+    "speed": 0.28,
+    "flight": 0,
+    "bounce": 0.01
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 5.0,
+    "start_frame": 2,
+    "end_frame": 602,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.05,
+    "dur_s": 5.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 5.0,
+    "end_s": 6.0,
+    "start_frame": 602,
+    "end_frame": 722,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.62,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 6.0,
+    "end_s": 7.0,
+    "start_frame": 722,
+    "end_frame": 842,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.38,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 7.0,
+    "end_s": 8.0,
+    "start_frame": 842,
+    "end_frame": 962,
+    "flights": [
+     3
+    ],
+    "mean_speed": 1.88,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 8.0,
+    "end_s": 9.0,
+    "start_frame": 962,
+    "end_frame": 1082,
+    "flights": [
+     15
+    ],
+    "mean_speed": 0.99,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 9.0,
+    "end_s": 10.0,
+    "start_frame": 1082,
+    "end_frame": 1202,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.17,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 10.0,
+    "end_s": 16.0,
+    "start_frame": 1202,
+    "end_frame": 1922,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.99,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 16.0,
+    "end_s": 18.0,
+    "start_frame": 1922,
+    "end_frame": 2162,
+    "flights": [
+     6,
+     5
+    ],
+    "mean_speed": 1.55,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 18.0,
+    "end_s": 21.0,
+    "start_frame": 2162,
+    "end_frame": 2522,
+    "flights": [
+     2,
+     0,
+     0
+    ],
+    "mean_speed": 0.62,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 21.0,
+    "end_s": 22.0,
+    "start_frame": 2522,
+    "end_frame": 2642,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 22.0,
+    "end_s": 23.0,
+    "start_frame": 2642,
+    "end_frame": 2762,
+    "flights": [
+     5
+    ],
+    "mean_speed": 1.59,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 23.0,
+    "end_s": 24.0,
+    "start_frame": 2762,
+    "end_frame": 2882,
+    "flights": [
+     7
+    ],
+    "mean_speed": 1.25,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 24.0,
+    "end_s": 26.0,
+    "start_frame": 2882,
+    "end_frame": 3122,
+    "flights": [
+     2,
+     0
+    ],
+    "mean_speed": 0.29,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 26.0,
+    "end_s": 28.0,
+    "start_frame": 3122,
+    "end_frame": 3362,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 1.21,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 28.0,
+    "end_s": 29.0,
+    "start_frame": 3362,
+    "end_frame": 3482,
+    "flights": [
+     2
+    ],
+    "mean_speed": 0.18,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 29.0,
+    "end_s": 31.0,
+    "start_frame": 3482,
+    "end_frame": 3722,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.55,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 31.0,
+    "end_s": 34.0,
+    "start_frame": 3722,
+    "end_frame": 4082,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.13,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 34.0,
+    "end_s": 36.0,
+    "start_frame": 4082,
+    "end_frame": 4322,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.53,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 36.0,
+    "end_s": 38.0,
+    "start_frame": 4322,
+    "end_frame": 4562,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 38.0,
+    "end_s": 39.0,
+    "start_frame": 4562,
+    "end_frame": 4682,
+    "flights": [
+     8
+    ],
+    "mean_speed": 0.69,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 39.0,
+    "end_s": 40.0,
+    "start_frame": 4682,
+    "end_frame": 4802,
+    "flights": [
+     7
+    ],
+    "mean_speed": 0.16,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 40.0,
+    "end_s": 44.0,
+    "start_frame": 4802,
+    "end_frame": 5282,
+    "flights": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 1.07,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 44.0,
+    "end_s": 45.0,
+    "start_frame": 5282,
+    "end_frame": 5402,
+    "flights": [
+     13
+    ],
+    "mean_speed": 0.26,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 45.0,
+    "end_s": 47.0,
+    "start_frame": 5402,
+    "end_frame": 5642,
+    "flights": [
+     0,
+     14
+    ],
+    "mean_speed": 0.49,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 47.0,
+    "end_s": 49.0,
+    "start_frame": 5642,
+    "end_frame": 5882,
+    "flights": [
+     0,
+     14
+    ],
+    "mean_speed": 0.27,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 49.0,
+    "end_s": 56.0,
+    "start_frame": 5882,
+    "end_frame": 6722,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     7
+    ],
+    "mean_speed": 0.85,
+    "dur_s": 7.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 56.0,
+    "end_s": 57.0,
+    "start_frame": 6722,
+    "end_frame": 6842,
+    "flights": [
+     9
+    ],
+    "mean_speed": 0.22,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 57.0,
+    "end_s": 59.0,
+    "start_frame": 6842,
+    "end_frame": 7082,
+    "flights": [
+     0,
+     1
+    ],
+    "mean_speed": 1.36,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 59.0,
+    "end_s": 60.0,
+    "start_frame": 7082,
+    "end_frame": 7202,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.32,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 60.0,
+    "end_s": 62.0,
+    "start_frame": 7202,
+    "end_frame": 7442,
+    "flights": [
+     2,
+     8
+    ],
+    "mean_speed": 1.4,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 62.0,
+    "end_s": 63.0,
+    "start_frame": 7442,
+    "end_frame": 7562,
+    "flights": [
+     9
+    ],
+    "mean_speed": 0.3,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 63.0,
+    "end_s": 64.0,
+    "start_frame": 7562,
+    "end_frame": 7682,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.62,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 64.0,
+    "end_s": 65.0,
+    "start_frame": 7682,
+    "end_frame": 7802,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.34,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 65.0,
+    "end_s": 66.0,
+    "start_frame": 7802,
+    "end_frame": 7922,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.61,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 66.0,
+    "end_s": 67.0,
+    "start_frame": 7922,
+    "end_frame": 8042,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.28,
+    "dur_s": 1.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos06.fbx",
+  "ground": 0.006,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.63,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 0.46,
+    "flight": 0,
+    "bounce": 0.031
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 0.16,
+    "flight": 0,
+    "bounce": 0.01
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 0.27,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 0.13,
+    "flight": 0,
+    "bounce": 0.005
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 0.04,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 1.08,
+    "flight": 0,
+    "bounce": 0.072
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 1.01,
+    "flight": 0,
+    "bounce": 0.137
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 0.32,
+    "flight": 0,
+    "bounce": 0.126
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 2.02,
+    "flight": 0,
+    "bounce": 0.154
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 0.78,
+    "flight": 1,
+    "bounce": 0.193
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 2.15,
+    "flight": 6,
+    "bounce": 0.284
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 1.51,
+    "flight": 18,
+    "bounce": 0.715
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 0.7,
+    "flight": 0,
+    "bounce": 0.268
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 1.9,
+    "flight": 5,
+    "bounce": 0.257
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 1.04,
+    "flight": 5,
+    "bounce": 0.269
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.53,
+    "flight": 8,
+    "bounce": 0.203
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 0.61,
+    "flight": 0,
+    "bounce": 0.203
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 0.5,
+    "flight": 0,
+    "bounce": 0.056
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.6,
+    "flight": 0,
+    "bounce": 0.039
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.006
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.09,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 0.24,
+    "flight": 0,
+    "bounce": 0.01
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 0.35,
+    "flight": 0,
+    "bounce": 0.018
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 0.38,
+    "flight": 0,
+    "bounce": 0.03
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 0.25,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 0.12,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 0.07,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 0.08,
+    "flight": 0,
+    "bounce": 0.012
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.018
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 0.2,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 0.39,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 0.3,
+    "flight": 0,
+    "bounce": 0.01
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 2.0,
+    "start_frame": 2,
+    "end_frame": 242,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.03,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 2.0,
+    "end_s": 4.0,
+    "start_frame": 242,
+    "end_frame": 482,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.55,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 4.0,
+    "end_s": 14.0,
+    "start_frame": 482,
+    "end_frame": 1682,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.12,
+    "dur_s": 10.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 14.0,
+    "end_s": 16.0,
+    "start_frame": 1682,
+    "end_frame": 1922,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 1.04,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 16.0,
+    "end_s": 17.0,
+    "start_frame": 1922,
+    "end_frame": 2042,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.32,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 17.0,
+    "end_s": 19.0,
+    "start_frame": 2042,
+    "end_frame": 2282,
+    "flights": [
+     0,
+     1
+    ],
+    "mean_speed": 1.4,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 19.0,
+    "end_s": 21.0,
+    "start_frame": 2282,
+    "end_frame": 2522,
+    "flights": [
+     6,
+     18
+    ],
+    "mean_speed": 1.83,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 21.0,
+    "end_s": 22.0,
+    "start_frame": 2522,
+    "end_frame": 2642,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.7,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 22.0,
+    "end_s": 23.0,
+    "start_frame": 2642,
+    "end_frame": 2762,
+    "flights": [
+     5
+    ],
+    "mean_speed": 1.9,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 23.0,
+    "end_s": 29.0,
+    "start_frame": 2762,
+    "end_frame": 3482,
+    "flights": [
+     5,
+     8,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.61,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 29.0,
+    "end_s": 43.0,
+    "start_frame": 3482,
+    "end_frame": 5162,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.22,
+    "dur_s": 14.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos07.fbx",
+  "ground": 0.009,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.14,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.109
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 0.18,
+    "flight": 0,
+    "bounce": 0.084
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 0.47,
+    "flight": 13,
+    "bounce": 0.554
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.194
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.07,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 0.07,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 0.13,
+    "flight": 0,
+    "bounce": 0.171
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 0.28,
+    "flight": 10,
+    "bounce": 0.539
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.045
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.22,
+    "flight": 0,
+    "bounce": 0.113
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.133
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 0.36,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 0.52,
+    "flight": 0,
+    "bounce": 0.023
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 0.59,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.01
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 0.35,
+    "flight": 0,
+    "bounce": 0.013
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 0.55,
+    "flight": 0,
+    "bounce": 0.036
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 0.46,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 0.16,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 0.13,
+    "flight": 0,
+    "bounce": 0.015
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.025
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 0.43,
+    "flight": 0,
+    "bounce": 0.023
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 0.14,
+    "flight": 0,
+    "bounce": 0.018
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.09,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 0.08,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.062
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.56,
+    "flight": 0,
+    "bounce": 0.059
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.06
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.52,
+    "flight": 0,
+    "bounce": 0.084
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 0.79,
+    "flight": 0,
+    "bounce": 0.117
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 0.72,
+    "flight": 0,
+    "bounce": 0.146
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 0.7,
+    "flight": 0,
+    "bounce": 0.152
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.091
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 0.45,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 0.39,
+    "flight": 0,
+    "bounce": 0.03
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.092
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 0.31,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.017
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 43.0,
+    "frame": 5162,
+    "speed": 0.2,
+    "flight": 0,
+    "bounce": 0.01
+   },
+   {
+    "t": 44.0,
+    "frame": 5282,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.008
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 2.0,
+    "start_frame": 2,
+    "end_frame": 242,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.08,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 2.0,
+    "end_s": 3.0,
+    "start_frame": 242,
+    "end_frame": 362,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.47,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 3.0,
+    "end_s": 4.0,
+    "start_frame": 362,
+    "end_frame": 482,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.18,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 4.0,
+    "end_s": 6.0,
+    "start_frame": 482,
+    "end_frame": 722,
+    "flights": [
+     13,
+     0
+    ],
+    "mean_speed": 0.45,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 6.0,
+    "end_s": 14.0,
+    "start_frame": 722,
+    "end_frame": 1682,
+    "flights": [
+     0,
+     0,
+     0,
+     10,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.21,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 14.0,
+    "end_s": 16.0,
+    "start_frame": 1682,
+    "end_frame": 1922,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.55,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 16.0,
+    "end_s": 19.0,
+    "start_frame": 1922,
+    "end_frame": 2282,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.24,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 19.0,
+    "end_s": 21.0,
+    "start_frame": 2282,
+    "end_frame": 2522,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.51,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 21.0,
+    "end_s": 24.0,
+    "start_frame": 2522,
+    "end_frame": 2882,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.17,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 24.0,
+    "end_s": 26.0,
+    "start_frame": 2882,
+    "end_frame": 3122,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.53,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 26.0,
+    "end_s": 30.0,
+    "start_frame": 3122,
+    "end_frame": 3602,
+    "flights": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.16,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 30.0,
+    "end_s": 38.0,
+    "start_frame": 3602,
+    "end_frame": 4562,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.58,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 38.0,
+    "end_s": 39.0,
+    "start_frame": 4562,
+    "end_frame": 4682,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.39,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 39.0,
+    "end_s": 40.0,
+    "start_frame": 4682,
+    "end_frame": 4802,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.48,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 40.0,
+    "end_s": 41.0,
+    "start_frame": 4802,
+    "end_frame": 4922,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.31,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 41.0,
+    "end_s": 42.0,
+    "start_frame": 4922,
+    "end_frame": 5042,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.47,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 42.0,
+    "end_s": 45.0,
+    "start_frame": 5042,
+    "end_frame": 5402,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.15,
+    "dur_s": 3.0
+   }
+  ]
+ },
+ {
+  "file": "Movimentos_basquete01.fbx",
+  "ground": 0.006,
+  "seconds": [
+   {
+    "t": 0.0,
+    "frame": 2,
+    "speed": 0.01,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 1.0,
+    "frame": 122,
+    "speed": 0.12,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 2.0,
+    "frame": 242,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 3.0,
+    "frame": 362,
+    "speed": 0.31,
+    "flight": 0,
+    "bounce": 0.014
+   },
+   {
+    "t": 4.0,
+    "frame": 482,
+    "speed": 0.28,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 5.0,
+    "frame": 602,
+    "speed": 0.12,
+    "flight": 0,
+    "bounce": 0.014
+   },
+   {
+    "t": 6.0,
+    "frame": 722,
+    "speed": 0.3,
+    "flight": 0,
+    "bounce": 0.16
+   },
+   {
+    "t": 7.0,
+    "frame": 842,
+    "speed": 0.53,
+    "flight": 0,
+    "bounce": 0.136
+   },
+   {
+    "t": 8.0,
+    "frame": 962,
+    "speed": 0.57,
+    "flight": 0,
+    "bounce": 0.135
+   },
+   {
+    "t": 9.0,
+    "frame": 1082,
+    "speed": 0.33,
+    "flight": 0,
+    "bounce": 0.212
+   },
+   {
+    "t": 10.0,
+    "frame": 1202,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.061
+   },
+   {
+    "t": 11.0,
+    "frame": 1322,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.08
+   },
+   {
+    "t": 12.0,
+    "frame": 1442,
+    "speed": 1.14,
+    "flight": 0,
+    "bounce": 0.205
+   },
+   {
+    "t": 13.0,
+    "frame": 1562,
+    "speed": 0.77,
+    "flight": 0,
+    "bounce": 0.206
+   },
+   {
+    "t": 14.0,
+    "frame": 1682,
+    "speed": 0.8,
+    "flight": 0,
+    "bounce": 0.205
+   },
+   {
+    "t": 15.0,
+    "frame": 1802,
+    "speed": 0.3,
+    "flight": 0,
+    "bounce": 0.14
+   },
+   {
+    "t": 16.0,
+    "frame": 1922,
+    "speed": 0.64,
+    "flight": 0,
+    "bounce": 0.079
+   },
+   {
+    "t": 17.0,
+    "frame": 2042,
+    "speed": 0.83,
+    "flight": 0,
+    "bounce": 0.09
+   },
+   {
+    "t": 18.0,
+    "frame": 2162,
+    "speed": 1.05,
+    "flight": 0,
+    "bounce": 0.096
+   },
+   {
+    "t": 19.0,
+    "frame": 2282,
+    "speed": 0.79,
+    "flight": 0,
+    "bounce": 0.112
+   },
+   {
+    "t": 20.0,
+    "frame": 2402,
+    "speed": 0.54,
+    "flight": 0,
+    "bounce": 0.088
+   },
+   {
+    "t": 21.0,
+    "frame": 2522,
+    "speed": 0.94,
+    "flight": 0,
+    "bounce": 0.081
+   },
+   {
+    "t": 22.0,
+    "frame": 2642,
+    "speed": 1.04,
+    "flight": 0,
+    "bounce": 0.073
+   },
+   {
+    "t": 23.0,
+    "frame": 2762,
+    "speed": 0.86,
+    "flight": 0,
+    "bounce": 0.056
+   },
+   {
+    "t": 24.0,
+    "frame": 2882,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.012
+   },
+   {
+    "t": 25.0,
+    "frame": 3002,
+    "speed": 0.15,
+    "flight": 0,
+    "bounce": 0.203
+   },
+   {
+    "t": 26.0,
+    "frame": 3122,
+    "speed": 0.32,
+    "flight": 13,
+    "bounce": 0.585
+   },
+   {
+    "t": 27.0,
+    "frame": 3242,
+    "speed": 0.08,
+    "flight": 0,
+    "bounce": 0.025
+   },
+   {
+    "t": 28.0,
+    "frame": 3362,
+    "speed": 0.03,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 29.0,
+    "frame": 3482,
+    "speed": 0.05,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 30.0,
+    "frame": 3602,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.045
+   },
+   {
+    "t": 31.0,
+    "frame": 3722,
+    "speed": 0.55,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 32.0,
+    "frame": 3842,
+    "speed": 0.24,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 33.0,
+    "frame": 3962,
+    "speed": 1.22,
+    "flight": 0,
+    "bounce": 0.1
+   },
+   {
+    "t": 34.0,
+    "frame": 4082,
+    "speed": 1.36,
+    "flight": 0,
+    "bounce": 0.17
+   },
+   {
+    "t": 35.0,
+    "frame": 4202,
+    "speed": 1.05,
+    "flight": 0,
+    "bounce": 0.067
+   },
+   {
+    "t": 36.0,
+    "frame": 4322,
+    "speed": 1.44,
+    "flight": 0,
+    "bounce": 0.069
+   },
+   {
+    "t": 37.0,
+    "frame": 4442,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.046
+   },
+   {
+    "t": 38.0,
+    "frame": 4562,
+    "speed": 1.31,
+    "flight": 0,
+    "bounce": 0.098
+   },
+   {
+    "t": 39.0,
+    "frame": 4682,
+    "speed": 1.92,
+    "flight": 4,
+    "bounce": 0.542
+   },
+   {
+    "t": 40.0,
+    "frame": 4802,
+    "speed": 0.79,
+    "flight": 10,
+    "bounce": 0.576
+   },
+   {
+    "t": 41.0,
+    "frame": 4922,
+    "speed": 0.57,
+    "flight": 0,
+    "bounce": 0.04
+   },
+   {
+    "t": 42.0,
+    "frame": 5042,
+    "speed": 0.59,
+    "flight": 0,
+    "bounce": 0.047
+   },
+   {
+    "t": 43.0,
+    "frame": 5162,
+    "speed": 0.76,
+    "flight": 0,
+    "bounce": 0.05
+   },
+   {
+    "t": 44.0,
+    "frame": 5282,
+    "speed": 1.27,
+    "flight": 0,
+    "bounce": 0.102
+   },
+   {
+    "t": 45.0,
+    "frame": 5402,
+    "speed": 0.88,
+    "flight": 11,
+    "bounce": 0.512
+   },
+   {
+    "t": 46.0,
+    "frame": 5522,
+    "speed": 0.42,
+    "flight": 0,
+    "bounce": 0.129
+   },
+   {
+    "t": 47.0,
+    "frame": 5642,
+    "speed": 0.49,
+    "flight": 0,
+    "bounce": 0.042
+   },
+   {
+    "t": 48.0,
+    "frame": 5762,
+    "speed": 0.11,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 49.0,
+    "frame": 5882,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 50.0,
+    "frame": 6002,
+    "speed": 0.41,
+    "flight": 0,
+    "bounce": 0.059
+   },
+   {
+    "t": 51.0,
+    "frame": 6122,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.238
+   },
+   {
+    "t": 52.0,
+    "frame": 6242,
+    "speed": 0.3,
+    "flight": 14,
+    "bounce": 0.68
+   },
+   {
+    "t": 53.0,
+    "frame": 6362,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.115
+   },
+   {
+    "t": 54.0,
+    "frame": 6482,
+    "speed": 0.86,
+    "flight": 13,
+    "bounce": 0.558
+   },
+   {
+    "t": 55.0,
+    "frame": 6602,
+    "speed": 0.37,
+    "flight": 0,
+    "bounce": 0.123
+   },
+   {
+    "t": 56.0,
+    "frame": 6722,
+    "speed": 0.57,
+    "flight": 0,
+    "bounce": 0.164
+   },
+   {
+    "t": 57.0,
+    "frame": 6842,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.062
+   },
+   {
+    "t": 58.0,
+    "frame": 6962,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.086
+   },
+   {
+    "t": 59.0,
+    "frame": 7082,
+    "speed": 0.22,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 60.0,
+    "frame": 7202,
+    "speed": 0.14,
+    "flight": 0,
+    "bounce": 0.019
+   },
+   {
+    "t": 61.0,
+    "frame": 7322,
+    "speed": 1.56,
+    "flight": 0,
+    "bounce": 0.221
+   },
+   {
+    "t": 62.0,
+    "frame": 7442,
+    "speed": 0.63,
+    "flight": 0,
+    "bounce": 0.215
+   },
+   {
+    "t": 63.0,
+    "frame": 7562,
+    "speed": 0.85,
+    "flight": 0,
+    "bounce": 0.086
+   },
+   {
+    "t": 64.0,
+    "frame": 7682,
+    "speed": 0.3,
+    "flight": 0,
+    "bounce": 0.05
+   },
+   {
+    "t": 65.0,
+    "frame": 7802,
+    "speed": 0.11,
+    "flight": 0,
+    "bounce": 0.05
+   },
+   {
+    "t": 66.0,
+    "frame": 7922,
+    "speed": 0.22,
+    "flight": 0,
+    "bounce": 0.142
+   },
+   {
+    "t": 67.0,
+    "frame": 8042,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.066
+   },
+   {
+    "t": 68.0,
+    "frame": 8162,
+    "speed": 0.41,
+    "flight": 0,
+    "bounce": 0.22
+   },
+   {
+    "t": 69.0,
+    "frame": 8282,
+    "speed": 0.42,
+    "flight": 4,
+    "bounce": 0.558
+   },
+   {
+    "t": 70.0,
+    "frame": 8402,
+    "speed": 0.1,
+    "flight": 9,
+    "bounce": 0.432
+   },
+   {
+    "t": 71.0,
+    "frame": 8522,
+    "speed": 0.08,
+    "flight": 0,
+    "bounce": 0.005
+   },
+   {
+    "t": 72.0,
+    "frame": 8642,
+    "speed": 0.08,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 73.0,
+    "frame": 8762,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.008
+   },
+   {
+    "t": 74.0,
+    "frame": 8882,
+    "speed": 0.21,
+    "flight": 0,
+    "bounce": 0.005
+   },
+   {
+    "t": 75.0,
+    "frame": 9002,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 76.0,
+    "frame": 9122,
+    "speed": 0.06,
+    "flight": 0,
+    "bounce": 0.002
+   },
+   {
+    "t": 77.0,
+    "frame": 9242,
+    "speed": 0.02,
+    "flight": 0,
+    "bounce": 0.001
+   },
+   {
+    "t": 78.0,
+    "frame": 9362,
+    "speed": 0.2,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 79.0,
+    "frame": 9482,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.035
+   },
+   {
+    "t": 80.0,
+    "frame": 9602,
+    "speed": 0.31,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 81.0,
+    "frame": 9722,
+    "speed": 0.23,
+    "flight": 0,
+    "bounce": 0.015
+   },
+   {
+    "t": 82.0,
+    "frame": 9842,
+    "speed": 0.19,
+    "flight": 0,
+    "bounce": 0.013
+   },
+   {
+    "t": 83.0,
+    "frame": 9962,
+    "speed": 0.22,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 84.0,
+    "frame": 10082,
+    "speed": 0.34,
+    "flight": 0,
+    "bounce": 0.121
+   },
+   {
+    "t": 85.0,
+    "frame": 10202,
+    "speed": 0.63,
+    "flight": 0,
+    "bounce": 0.1
+   },
+   {
+    "t": 86.0,
+    "frame": 10322,
+    "speed": 0.42,
+    "flight": 0,
+    "bounce": 0.154
+   },
+   {
+    "t": 87.0,
+    "frame": 10442,
+    "speed": 1.12,
+    "flight": 0,
+    "bounce": 0.1
+   },
+   {
+    "t": 88.0,
+    "frame": 10562,
+    "speed": 0.46,
+    "flight": 14,
+    "bounce": 0.653
+   },
+   {
+    "t": 89.0,
+    "frame": 10682,
+    "speed": 0.24,
+    "flight": 0,
+    "bounce": 0.144
+   },
+   {
+    "t": 90.0,
+    "frame": 10802,
+    "speed": 0.8,
+    "flight": 0,
+    "bounce": 0.046
+   },
+   {
+    "t": 91.0,
+    "frame": 10922,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.112
+   },
+   {
+    "t": 92.0,
+    "frame": 11042,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.063
+   },
+   {
+    "t": 93.0,
+    "frame": 11162,
+    "speed": 1.48,
+    "flight": 0,
+    "bounce": 0.06
+   },
+   {
+    "t": 94.0,
+    "frame": 11282,
+    "speed": 0.79,
+    "flight": 0,
+    "bounce": 0.317
+   },
+   {
+    "t": 95.0,
+    "frame": 11402,
+    "speed": 1.34,
+    "flight": 0,
+    "bounce": 0.078
+   },
+   {
+    "t": 96.0,
+    "frame": 11522,
+    "speed": 1.24,
+    "flight": 0,
+    "bounce": 0.081
+   },
+   {
+    "t": 97.0,
+    "frame": 11642,
+    "speed": 0.5,
+    "flight": 0,
+    "bounce": 0.032
+   },
+   {
+    "t": 98.0,
+    "frame": 11762,
+    "speed": 0.2,
+    "flight": 0,
+    "bounce": 0.009
+   },
+   {
+    "t": 99.0,
+    "frame": 11882,
+    "speed": 0.17,
+    "flight": 0,
+    "bounce": 0.007
+   },
+   {
+    "t": 100.0,
+    "frame": 12002,
+    "speed": 0.31,
+    "flight": 0,
+    "bounce": 0.148
+   },
+   {
+    "t": 101.0,
+    "frame": 12122,
+    "speed": 0.44,
+    "flight": 0,
+    "bounce": 0.146
+   },
+   {
+    "t": 102.0,
+    "frame": 12242,
+    "speed": 0.64,
+    "flight": 0,
+    "bounce": 0.172
+   },
+   {
+    "t": 103.0,
+    "frame": 12362,
+    "speed": 0.51,
+    "flight": 0,
+    "bounce": 0.267
+   },
+   {
+    "t": 104.0,
+    "frame": 12482,
+    "speed": 0.74,
+    "flight": 0,
+    "bounce": 0.083
+   },
+   {
+    "t": 105.0,
+    "frame": 12602,
+    "speed": 0.7,
+    "flight": 0,
+    "bounce": 0.052
+   },
+   {
+    "t": 106.0,
+    "frame": 12722,
+    "speed": 0.86,
+    "flight": 0,
+    "bounce": 0.06
+   },
+   {
+    "t": 107.0,
+    "frame": 12842,
+    "speed": 0.42,
+    "flight": 0,
+    "bounce": 0.045
+   },
+   {
+    "t": 108.0,
+    "frame": 12962,
+    "speed": 0.28,
+    "flight": 0,
+    "bounce": 0.018
+   },
+   {
+    "t": 109.0,
+    "frame": 13082,
+    "speed": 0.2,
+    "flight": 0,
+    "bounce": 0.016
+   },
+   {
+    "t": 110.0,
+    "frame": 13202,
+    "speed": 0.29,
+    "flight": 0,
+    "bounce": 0.019
+   },
+   {
+    "t": 111.0,
+    "frame": 13322,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.035
+   },
+   {
+    "t": 112.0,
+    "frame": 13442,
+    "speed": 0.4,
+    "flight": 0,
+    "bounce": 0.029
+   },
+   {
+    "t": 113.0,
+    "frame": 13562,
+    "speed": 0.62,
+    "flight": 0,
+    "bounce": 0.028
+   },
+   {
+    "t": 114.0,
+    "frame": 13682,
+    "speed": 0.13,
+    "flight": 0,
+    "bounce": 0.01
+   },
+   {
+    "t": 115.0,
+    "frame": 13802,
+    "speed": 0.46,
+    "flight": 0,
+    "bounce": 0.022
+   },
+   {
+    "t": 116.0,
+    "frame": 13922,
+    "speed": 0.32,
+    "flight": 0,
+    "bounce": 0.032
+   },
+   {
+    "t": 117.0,
+    "frame": 14042,
+    "speed": 0.47,
+    "flight": 0,
+    "bounce": 0.012
+   },
+   {
+    "t": 118.0,
+    "frame": 14162,
+    "speed": 0.35,
+    "flight": 0,
+    "bounce": 0.02
+   },
+   {
+    "t": 119.0,
+    "frame": 14282,
+    "speed": 0.1,
+    "flight": 0,
+    "bounce": 0.004
+   },
+   {
+    "t": 120.0,
+    "frame": 14402,
+    "speed": 0.13,
+    "flight": 0,
+    "bounce": 0.003
+   },
+   {
+    "t": 121.0,
+    "frame": 14522,
+    "speed": 0.48,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 122.0,
+    "frame": 14642,
+    "speed": 0.6,
+    "flight": 0,
+    "bounce": 0.026
+   },
+   {
+    "t": 123.0,
+    "frame": 14762,
+    "speed": 0.55,
+    "flight": 0,
+    "bounce": 0.029
+   },
+   {
+    "t": 124.0,
+    "frame": 14882,
+    "speed": 0.36,
+    "flight": 0,
+    "bounce": 0.011
+   }
+  ],
+  "segments": [
+   {
+    "gait": "parado",
+    "start_s": 0.0,
+    "end_s": 7.0,
+    "start_frame": 2,
+    "end_frame": 842,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.2,
+    "dur_s": 7.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 7.0,
+    "end_s": 9.0,
+    "start_frame": 842,
+    "end_frame": 1082,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.55,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 9.0,
+    "end_s": 12.0,
+    "start_frame": 1082,
+    "end_frame": 1442,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.26,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 12.0,
+    "end_s": 15.0,
+    "start_frame": 1442,
+    "end_frame": 1802,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.9,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 15.0,
+    "end_s": 16.0,
+    "start_frame": 1802,
+    "end_frame": 1922,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.3,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 16.0,
+    "end_s": 24.0,
+    "start_frame": 1922,
+    "end_frame": 2882,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.84,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 24.0,
+    "end_s": 30.0,
+    "start_frame": 2882,
+    "end_frame": 3602,
+    "flights": [
+     0,
+     0,
+     13,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.14,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 30.0,
+    "end_s": 32.0,
+    "start_frame": 3602,
+    "end_frame": 3842,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.53,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 32.0,
+    "end_s": 33.0,
+    "start_frame": 3842,
+    "end_frame": 3962,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.24,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 33.0,
+    "end_s": 39.0,
+    "start_frame": 3962,
+    "end_frame": 4682,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 1.14,
+    "dur_s": 6.0
+   },
+   {
+    "gait": "corrida",
+    "start_s": 39.0,
+    "end_s": 40.0,
+    "start_frame": 4682,
+    "end_frame": 4802,
+    "flights": [
+     4
+    ],
+    "mean_speed": 1.92,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 40.0,
+    "end_s": 48.0,
+    "start_frame": 4802,
+    "end_frame": 5762,
+    "flights": [
+     10,
+     0,
+     0,
+     0,
+     0,
+     11,
+     0,
+     0
+    ],
+    "mean_speed": 0.72,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 48.0,
+    "end_s": 50.0,
+    "start_frame": 5762,
+    "end_frame": 6002,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.07,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 50.0,
+    "end_s": 51.0,
+    "start_frame": 6002,
+    "end_frame": 6122,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.41,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 51.0,
+    "end_s": 54.0,
+    "start_frame": 6122,
+    "end_frame": 6482,
+    "flights": [
+     0,
+     14,
+     0
+    ],
+    "mean_speed": 0.25,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 54.0,
+    "end_s": 55.0,
+    "start_frame": 6482,
+    "end_frame": 6602,
+    "flights": [
+     13
+    ],
+    "mean_speed": 0.86,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 55.0,
+    "end_s": 56.0,
+    "start_frame": 6602,
+    "end_frame": 6722,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.37,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 56.0,
+    "end_s": 58.0,
+    "start_frame": 6722,
+    "end_frame": 6962,
+    "flights": [
+     0,
+     0
+    ],
+    "mean_speed": 0.51,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 58.0,
+    "end_s": 61.0,
+    "start_frame": 6962,
+    "end_frame": 7322,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 61.0,
+    "end_s": 64.0,
+    "start_frame": 7322,
+    "end_frame": 7682,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 1.01,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 64.0,
+    "end_s": 68.0,
+    "start_frame": 7682,
+    "end_frame": 8162,
+    "flights": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 68.0,
+    "end_s": 70.0,
+    "start_frame": 8162,
+    "end_frame": 8402,
+    "flights": [
+     0,
+     4
+    ],
+    "mean_speed": 0.41,
+    "dur_s": 2.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 70.0,
+    "end_s": 85.0,
+    "start_frame": 8402,
+    "end_frame": 10202,
+    "flights": [
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.18,
+    "dur_s": 15.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 85.0,
+    "end_s": 89.0,
+    "start_frame": 10202,
+    "end_frame": 10682,
+    "flights": [
+     0,
+     0,
+     0,
+     14
+    ],
+    "mean_speed": 0.66,
+    "dur_s": 4.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 89.0,
+    "end_s": 90.0,
+    "start_frame": 10682,
+    "end_frame": 10802,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.24,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 90.0,
+    "end_s": 98.0,
+    "start_frame": 10802,
+    "end_frame": 11762,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.88,
+    "dur_s": 8.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 98.0,
+    "end_s": 101.0,
+    "start_frame": 11762,
+    "end_frame": 12122,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.23,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 101.0,
+    "end_s": 108.0,
+    "start_frame": 12122,
+    "end_frame": 12962,
+    "flights": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.62,
+    "dur_s": 7.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 108.0,
+    "end_s": 111.0,
+    "start_frame": 12962,
+    "end_frame": 13322,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.26,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 111.0,
+    "end_s": 114.0,
+    "start_frame": 13322,
+    "end_frame": 13682,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.5,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 114.0,
+    "end_s": 115.0,
+    "start_frame": 13682,
+    "end_frame": 13802,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.13,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 115.0,
+    "end_s": 116.0,
+    "start_frame": 13802,
+    "end_frame": 13922,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.46,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 116.0,
+    "end_s": 117.0,
+    "start_frame": 13922,
+    "end_frame": 14042,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.32,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 117.0,
+    "end_s": 118.0,
+    "start_frame": 14042,
+    "end_frame": 14162,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.47,
+    "dur_s": 1.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 118.0,
+    "end_s": 121.0,
+    "start_frame": 14162,
+    "end_frame": 14522,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.19,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "caminhada",
+    "start_s": 121.0,
+    "end_s": 124.0,
+    "start_frame": 14522,
+    "end_frame": 14882,
+    "flights": [
+     0,
+     0,
+     0
+    ],
+    "mean_speed": 0.54,
+    "dur_s": 3.0
+   },
+   {
+    "gait": "parado",
+    "start_s": 124.0,
+    "end_s": 125.0,
+    "start_frame": 14882,
+    "end_frame": 15002,
+    "flights": [
+     0
+    ],
+    "mean_speed": 0.36,
+    "dur_s": 1.0
+   }
+  ]
+ }
+]
