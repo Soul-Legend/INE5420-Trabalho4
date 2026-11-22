@@ -8,15 +8,20 @@ O personagem é um **robô-bruxa gerado com IA** (Stable Diffusion 3.5 → forma
 
 **Relatório:** `docs/relatorio-trabalho-4.pdf`. **Vídeos curtos:** `docs/videos/demo_wasd_animacao_procedural.mp4` (26 s) e `docs/videos/demo_mocap_sem_tratamento.mp4` (18 s).
 
+**Vídeos de demonstração e executável Linux (Google Drive):** https://drive.google.com/drive/folders/1dgt56__DUrvMx2SWGJ8syuFKvYADoYan?usp=sharing
+
 ## Entrega e arquivos grandes
 
-Os arquivos grandes **não estão no git**: os executáveis (`builds/`, 121 MB e 86 MB), o vídeo da sequência completa da captura (`docs/videos/demo_mocap_sequencia_completa.mp4`, 107 MB) e o `blender/personagem.blend` (51 MB). Os três primeiros vão no zip de entrega, gerado por:
+Os arquivos grandes **não estão no git**: os executáveis (`builds/`, 121 MB e 86 MB), o vídeo da sequência completa da captura (`docs/videos/demo_mocap_sequencia_completa.mp4`, 107 MB) e o `blender/personagem.blend` (51 MB). O envio tem limite de 100 MB, então a entrega fica dividida em duas partes, geradas por:
 
 ```sh
-python tools/empacotar_entrega.py   # cria dist/INE5420_Grupo23_Trabalho4.zip
+python tools/empacotar_entrega.py
 ```
 
-O zip contém o relatório, os executáveis, os três vídeos e o código; o conteúdo está descrito em `entrega/LEIA-ME.md`, que vai na raiz do zip. O `.blend` é regenerado pelos scripts do Blender.
+- `dist/INE5420_Grupo23_Trabalho4.zip` (cerca de 84 MB): relatório, executável Windows, código e `links videos demo.txt`. O conteúdo está descrito em `entrega/LEIA-ME.md`, que vai na raiz do zip;
+- `dist/para_o_drive/`: os três vídeos e o executável Linux, para subir na pasta do Google Drive (https://drive.google.com/drive/folders/1dgt56__DUrvMx2SWGJ8syuFKvYADoYan?usp=sharing).
+
+O `.blend` é regenerado pelos scripts do Blender.
 
 ## Estrutura
 

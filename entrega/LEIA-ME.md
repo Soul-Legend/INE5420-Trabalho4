@@ -13,16 +13,26 @@ O trabalho é o jogo **Fortaleza em Movimento**, feito em Godot 4.7. Nele, um pe
 
 Há também uma cena automática que reproduz as 8 tomadas completas da captura, sem controle do jogador. O personagem (um robô-bruxa) foi gerado com IA; o processo está documentado no relatório (Seção 6) e em `codigo/ia/README.md`.
 
+## Vídeos e executável Linux (Google Drive)
+
+Para caber no limite de 100 MB do envio, os vídeos de demonstração e o executável para Linux estão nesta pasta do Google Drive (o link também está em `links videos demo.txt`):
+
+**https://drive.google.com/drive/folders/1dgt56__DUrvMx2SWGJ8syuFKvYADoYan?usp=sharing**
+
+| Arquivo no Drive | Conteúdo |
+| --- | --- |
+| `demo_wasd_animacao_procedural.mp4` | 26 s: sessão de jogo com WASD e Shift simulados, animação procedural |
+| `demo_mocap_sequencia_completa.mp4` | 8 min 57 s: as 8 tomadas completas da captura da turma, sem controle do jogador |
+| `demo_mocap_sem_tratamento.mp4` | 18 s: curiosidade, a mesma caminhada da captura usada sem tratamento, ao lado da versão tratada |
+| `FortalezaEmMovimento.x86_64` | Jogo para Linux 64 bits (arquivo único, dados embutidos) |
+
 ## O que tem no zip
 
 | Caminho | Conteúdo |
 | --- | --- |
 | `relatorio-trabalho-4.pdf` | Relatório em formato de artigo: fundamentação, método, progresso e dificuldades, resultados, declaração do uso de IA e limitações |
+| `links videos demo.txt` | Link da pasta do Google Drive com os vídeos e o executável para Linux |
 | `executaveis/windows/FortalezaEmMovimento.exe` | Jogo para Windows 64 bits (arquivo único, dados embutidos) |
-| `executaveis/linux/FortalezaEmMovimento.x86_64` | Jogo para Linux 64 bits (arquivo único, dados embutidos) |
-| `videos/demo_wasd_animacao_procedural.mp4` | 26 s: sessão de jogo com WASD e Shift simulados, animação procedural |
-| `videos/demo_mocap_sequencia_completa.mp4` | 8 min 57 s: as 8 tomadas completas da captura da turma, sem controle do jogador |
-| `videos/demo_mocap_sem_tratamento.mp4` | 18 s: curiosidade, a mesma caminhada da captura usada sem tratamento, ao lado da versão tratada |
 | `codigo/game/` | Projeto Godot 4.7 completo (cenas, scripts, personagem, animações e testes) |
 | `codigo/blender/` | Scripts do Blender que geram o esqueleto, os clipes da captura, as animações procedurais e o encaixe do personagem |
 | `codigo/tools/` | Análise das capturas, renders de verificação, gravação dos vídeos e geração do PDF |
@@ -33,11 +43,11 @@ Há também uma cena automática que reproduz as 8 tomadas completas da captura,
 
 **Windows:** execute `executaveis/windows/FortalezaEmMovimento.exe`.
 
-**Linux:** dê permissão de execução, se o descompactador não a preservar, e execute:
+**Linux:** baixe `FortalezaEmMovimento.x86_64` da pasta do Drive, dê permissão de execução e execute:
 
 ```sh
-chmod +x executaveis/linux/FortalezaEmMovimento.x86_64
-./executaveis/linux/FortalezaEmMovimento.x86_64
+chmod +x FortalezaEmMovimento.x86_64
+./FortalezaEmMovimento.x86_64
 ```
 
 | Tecla | Ação |

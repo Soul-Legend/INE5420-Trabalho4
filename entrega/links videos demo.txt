@@ -1,0 +1,11 @@
+INE5420 - Trabalho 4.0 - Grupo 23 - Videos de demonstracao
+
+Pasta no Google Drive:
+https://drive.google.com/drive/folders/1dgt56__DUrvMx2SWGJ8syuFKvYADoYan?usp=sharing
+
+Videos na pasta:
+- demo_wasd_animacao_procedural.mp4 (26 s): sessao de jogo com WASD e Shift simulados, animacao procedural
+- demo_mocap_sequencia_completa.mp4 (8 min 57 s): as 8 tomadas completas da captura da turma, sem controle do jogador
+- demo_mocap_sem_tratamento.mp4 (18 s): curiosidade, a mesma caminhada da captura usada sem tratamento, ao lado da versao tratada
+
+Na mesma pasta esta o executavel para Linux (FortalezaEmMovimento.x86_64), que nao coube no zip por causa do limite de 100 MB.
